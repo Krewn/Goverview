@@ -1,0 +1,4 @@
+Fixed bug which ignores the comma in tissue column.
+Updated gtx.py, now it can properly handle "," in column.
+All tissue figures updated, with a ".revised.jrn" attached.
+Old .jrn still there for comparision purpose (those with comma bug).

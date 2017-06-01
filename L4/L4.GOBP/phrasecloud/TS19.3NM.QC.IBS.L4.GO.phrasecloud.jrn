@@ -1,0 +1,768 @@
+﻿/* JMP 13.0.0   01 */
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Text Explorer for 1111"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("1111")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(20),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1298),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1.0140625),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(172),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.134375),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(20),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(20),title("Term"),flags(48),
+ strings("positive-regulation-of-macrophage-fusion","pre-b-cell-allelic-exclusion","hepoxilin-biosynthetic-process","mucosal-immune-response","positive-regulation-of-jak-stat-cascade","type-2-immune-response","thyroid-gland-development","b-cell-differentiation","d","j-recombination","positive-regulation-of-b-cell-proliferation","regulation-of-epithelial-cell-differentiation","regulation-of-sensory-perception-of-pain","regulation-of-t-cell-differentiation","v","cytokine-mediated-signaling-pathway","plasma-membrane-lactate-transport","positive-regulation-of-macrophage-activation","response-to-peptide","thyroid-hormone-generation"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(20),title("Count"),width(5),decimal(0),newdecimal(0),numbers(12,12,11,11,11,11,10,9,9,9,9,9,9,9,9,8,8,8,8,8),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(20),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,12),
+numbers(12,12,11,11,11,11,10,9,9,9,9,9,9,9,9,8,8,8,8,8),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(3),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(3),title("Phrase"),flags(48),
+ strings("v d j-recombination","d j-recombination","v d"),titleWrap(true),cellColors(2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(3),title("Count"),width(5),decimal(0),newdecimal(0),numbers(9,9,9),cellColors(2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(3),title("N"),width(3),decimal(0),newdecimal(0),numbers(3,2,2),cellColors(2147483647,2147483647,2147483647),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(20),Strings(,"positive-regulation-of-macrophage-fusion","pre-b-cell-allelic-exclusion","hepoxilin-biosynthetic-process","mucosal-immune-response","positive-regulation-of-jak-stat-cascade","type-2-immune-response","thyroid-gland-development","b-cell-differentiation","d","j-recombination","positive-regulation-of-b-cell-proliferation","regulation-of-epithelial-cell-differentiation","regulation-of-sensory-perception-of-pain","regulation-of-t-cell-differentiation","v","cytokine-mediated-signaling-pathway","plasma-membrane-lactate-transport","positive-regulation-of-macrophage-activation","response-to-peptide","thyroid-hormone-generation",),,
+Weights(12,12,11,11,11,11,10,9,9,9,
+9,9,9,9,9,8,8,8,8,8),Layout("Centered"),Locations(,(72.5541921695698,61.9992061391101,390.799839053346,80.8450377422834),(259.017079300982,43.0133956194094,458.854010640292,61.8592272225827),(305.732619996247,80.905479334094,517.926016396128,98.1808249703362),(90.7085987882302,112.297828725667,279.433601116235,129.573174361909),(35.5062113249313,94.7728305390843,303.762993563183,112.048176175326),(247.549898036283,25.671113369526,424.866653246015,42.9464590057682),(192.437759156933,129.723766900826,368.154396589036,145.428626570137),(57.1027174793454,83.3751897700889,174.178001542455,94.5760142134843),(225.676767886151,83.3612028685816,233.944043070562,94.5620273119771),(164.834997831992,47.544477803702,257.37514263814,61.678851506082),(280.150566242603,112.875658190019,515.101193257637,127.010031892399),(6.49269442314753,33.3875950855219,246.777047363607,47.5219687879019),(21.4593866236347,145.500497153173,255.876641046125,159.634870855553),(304.212635878484,98.2659210610337,497.29351437892,112.400294763414),(296.000216888449,86.0226469650051,304.26749207286,94.289922149416),(0,130.287070913187,191.302969858627,142.850958648636),(146.288560683242,12.721303213274,329.057569061187,25.2851909487228),(370.057148992728,128.287967990205,600,140.851855725654),(235.276094163884,-1.4210854715202e-14,339.105958845518,12.5638877354489),(17.8877522905857,49.1827291352278,163.913315404482,61.7466168706767),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 1112"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("1112")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(46),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(931),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.72734375),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(46),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),FixedRowHeight(15),ScrollingRows(25),ScrollingColumns(3),IsScrollable(true),ColorByRowStates,sub(
+StringColBox(n(46),title("Term"),flags(48),
+ strings("inflammatory-response","immune-response","innate-immune-response","adaptive-immune-response","cellular-defense-response","chemokine-mediated-signaling-pathway","chemotaxis","cell-surface-receptor-signaling-pathway","response-to-bacterium","regulation-of-immune-response","cellular-response-to-lipopolysaccharide","dendritic-cell-chemotaxis","cytokine-mediated-signaling-pathway","positive-regulation-of-chemokine-production","defense-response-to-bacterium","defense-response-to-gram-negative-bacterium","humoral-immune-response","monocyte-chemotaxis","positive-regulation-of-erk1-and-erk2-cascade","response-to-lipopolysaccharide","positive-regulation-of-t-cell-proliferation","signal-transduction","cell-adhesion","positive-regulation-of-cytokine-secretion","positive-regulation-of-interleukin-6-production","positive-regulation-of-monocyte-chemotaxis","respiratory-burst","toll-like-receptor-signaling-pathway","positive-regulation-of-angiogenesis","defense-response","receptor-mediated-endocytosis","response-to-yeast","hepatic-immune-response","macrophage-activation","positive-regulation-of-interferon-gamma-production","response-to-wounding","stem-cell-fate-specification","activation-of-innate-immune-response","g-protein-coupled-receptor-signaling-pathway","positive-regulation-of-macrophage-chemotaxis","cell-cell-signaling","cellular-response-to-interferon-gamma","lymph-node-development","monocyte-differentiation","mrna-transcription-from-rna-polymerase-ii-promoter","neutrophil-apoptotic-process"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(46),title("Count"),width(5),decimal(0),newdecimal(0),numbers(67,47,42,38,37,36,36,29,28,26,25,20,19,19,18,18,18,18,18,18,17,17,16,16,16,16,16,16,15,14,14,14,13,13,13,13,13,12,12,12,11,11,11,11,11,11),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(46),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,67),
+numbers(67,47,42,38,37,36,36,29,28,26,25,20,19,19,18,18,18,18,18,18,17,17,16,16,16,16,16,16,15,14,14,14,13,13,13,13,13,12,12,12,11,11,11,11,11,11),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(46),Strings(,"inflammatory-response","immune-response","innate-immune-response","adaptive-immune-response","cellular-defense-response","chemokine-mediated-signaling-pathway","chemotaxis","cell-surface-receptor-signaling-pathway","response-to-bacterium","regulation-of-immune-response","cellular-response-to-lipopolysaccharide","dendritic-cell-chemotaxis","cytokine-mediated-signaling-pathway","positive-regulation-of-chemokine-production","defense-response-to-bacterium","defense-response-to-gram-negative-bacterium","humoral-immune-response","monocyte-chemotaxis","positive-regulation-of-erk1-and-erk2-cascade","response-to-lipopolysaccharide","positive-regulation-of-t-cell-proliferation","signal-transduction","cell-adhesion","positive-regulation-of-cytokine-secretion","positive-regulation-of-interleukin-6-production","positive-regulation-of-monocyte-chemotaxis","respiratory-burst","toll-like-receptor-signaling-pathway","positive-regulation-of-angiogenesis","defense-response","receptor-mediated-endocytosis","response-to-yeast","hepatic-immune-response","macrophage-activation","positive-regulation-of-interferon-gamma-production","response-to-wounding","stem-cell-fate-specification","activation-of-innate-immune-response","g-protein-coupled-receptor-signaling-pathway","positive-regulation-of-macrophage-chemotaxis","cell-cell-signaling","cellular-response-to-interferon-gamma","lymph-node-development","monocyte-differentiation","mrna-transcription-from-rna-polymerase-ii-promoter","neutrophil-apoptotic-process",),,
+Weights(67,47,42,38,37,36,36,29,28,26,
+25,20,19,19,18,18,18,18,18,18,
+17,17,16,16,16,16,16,16,15,14,
+14,14,13,13,13,13,13,12,12,12,
+11,11,11,11,11,11),Layout("Centered"),Locations(,(99.4159353582854,67.4149328541574,451.651670906763,105.28206061089),(330.169157190208,105.632047532042,523.631683735589,132.195555062884),(359.936699504486,132.383004204165,600,156.120606678534),(103.764304989291,141.102870181553,341.225640074317,162.579748610745),(102.74796222641,120.158867763476,319.361582649535,141.070565181374),(221.13243405659,46.8923554069859,551.66735152989,67.2388718135886),(277.50523164443,162.603717594875,370.40819335005,178.727372105768),(5.55627726816476,162.769015291173,268.109516496134,179.159264618714),(189.987203023203,179.327695280764,335.398679815884,195.152763597011),(128.886383213979,105.418135549508,318.254013375641,120.112841843166),(335.680812863195,178.899296304358,559.353864031168,193.028821586721),(105.376216491722,56.3003353308863,220.118625577176,65.2579211702711),(81.1571157960676,195.200169901946,244.665048742839,205.938609116542),(371.2905359374,156.659458023765,567.013786527959,167.397897238361),(320.725599637645,195.783416010558,449.714835724787,205.956674213859),(69.6358453489946,36.4591717486526,261.584113335813,46.6324299519539),(222.411448222298,26.1682515643052,333.933391922639,36.3415097676065),(456.582683254638,95.3734930676234,546.798369208443,105.546751270925),(265.910555775203,36.6385861144114,451.90842745443,46.8118443177128),(0,109.209800799928,128.221443015194,119.38305900323),(120.132765645086,16.0980368085867,277.668974698934,25.7061140005936),(24.8981738072701,98.3149799421479,99.2248086888324,107.923057134155),(456.887311389075,88.0784055373146,505.514205945736,95.2444742088225),(160.007855741479,6.79212233703051,308.618470333939,15.8350185177428),(223.425732861353,206.089086210099,394.728898246922,215.131982390812),(232.946251452828,215.494011441161,395.03589997503,224.536907621873),(334.26333369164,26.9495257368309,395.516158764766,35.9924219175432),(49.3079811252875,179.182094112454,180.685906769599,188.224990293166),(284.77469583824,17.3850199332104,406.341932229891,25.8627351026283),(452.797014559102,79.6026391149817,509.379098444549,87.515173273105),(3.00670963041608,142.005671070094,102.734498642234,149.918205228217),(245.321227526531,195.237084214388,302.799069995917,202.552445983219),(460.830755143977,167.707891089413,538.324536447322,175.055244236242),(225.674909634805,225.152478758452,293.603268916807,232.499831905281),(67.9390503772122,208.631225185159,223.342500897873,215.978578331988),(34.7978201474514,120.183210744992,102.171662210825,127.53056389182),(372.765129987035,167.720176079002,452.754238774209,175.067529225831),(462.270296698964,72.6954044562184,567.45794755574,79.4775765917526),(180.304391290838,232.692666618619,308.013972258068,239.474838754154),(216.706204123314,0,345.183578162491,6.78217213553424),(58.538022066315,127.68705674959,102.291563374644,133.90404787383),(397.60055208854,206.029986131438,495.195582567171,212.246977255677),(508.430565627385,89.0506442843961,574.119528449541,95.2676354086358),(40.2297380362391,134.45614541314,102.516950997962,140.67313653738),(457.691917926126,40.5092156154566,590.24286076369,46.7262067396963),(452.43872145411,193.298021561028,525.517692593758,199.515012685267),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 1121"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("1121")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(17),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(164),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.128125),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(17),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(17),title("Term"),flags(48),
+ strings("acute-phase-response","g-protein-coupled-receptor-signaling-pathway","gamma-delta-t-cell-activation","temperature-homeostasis","multicellular-organism-development","defense-response-to-gram-positive-bacterium","adult-feeding-behavior","androgen-biosynthetic-process","cell-cell-signaling","diet-induced-thermogenesis","positive-regulation-of-keratinocyte-proliferation","response-to-estrogen","visual-perception","positive-regulation-of-camp-biosynthetic-process","positive-regulation-of-wound-healing","response-to-retinoic-acid","sperm-egg-recognition"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(17),title("Count"),width(5),decimal(0),newdecimal(0),numbers(12,12,12,12,11,10,9,9,9,9,9,9,9,8,8,8,8),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(17),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,12),
+numbers(12,12,12,12,11,10,9,9,9,9,9,9,9,8,8,8,8),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(17),Strings(,"acute-phase-response","g-protein-coupled-receptor-signaling-pathway","gamma-delta-t-cell-activation","temperature-homeostasis","multicellular-organism-development","defense-response-to-gram-positive-bacterium","adult-feeding-behavior","androgen-biosynthetic-process","cell-cell-signaling","diet-induced-thermogenesis","positive-regulation-of-keratinocyte-proliferation","response-to-estrogen","visual-perception","positive-regulation-of-camp-biosynthetic-process","positive-regulation-of-wound-healing","response-to-retinoic-acid","sperm-egg-recognition",),,
+Weights(12,12,12,12,11,10,9,9,9,9,
+9,9,9,8,8,8,8),Layout("Centered"),Locations(,(149.966845698814,54.8910722290223,336.955389765503,75.9322459775032),(203.790728283323,33.8251199607175,600,54.8662937091984),(340.422260132191,60.070855575388,592.122338557415,81.1120293238689),(76.857316619627,103.281024614524,294.01810983508,124.322198363004),(34.349008112442,83.9916148182202,317.114593062546,103.279357420994),(212.041005514724,16.0026999483287,537.583693698767,33.5370114053961),(224.435547663746,124.35779546422,371.823014722681,140.13867577558),(0,38.9246138940928,197.409880121361,54.7054942054534),(175.849934792842,140.345597525891,286.911601889776,156.126477837252),(127.299319467811,1.4210854715202e-14,307.141804525582,15.7808803113607),(294.689993939291,103.592044863981,598.993006735717,119.372925175342),(74.312150203151,19.0341089205904,211.576033666118,33.6239793971314),(76.6571118745055,124.364873881224,187.12327405403,140.145754192584),(317.834773861924,88.9023563868321,596.531075209727,102.929805552486),(288.45375009188,140.443510240351,500.453500689782,154.470959406005),(6.19226549095862,67.7559304717678,148.584107964955,81.7833796374217),(159.380912959257,156.256728265806,290.656663641603,170.28417743146),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 1122"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("1122")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(17),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(137),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.10703125),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(17),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(17),title("Term"),flags(48),
+ strings("embryonic-skeletal-system-morphogenesis","meiotic-dna-double-strand-break-formation","reciprocal-meiotic-recombination","response-to-molecule-of-bacterial-origin","cellular-response-to-light-stimulus","negative-regulation-of-b-cell-proliferation","protein-chromophore-linkage","absorption-of-visible-light","antibacterial-peptide-production","antibiotic-metabolic-process","cellular-lactam-catabolic-process","detection-of-oxidative-stress","eosinophil-migration","positive-regulation-of-renal-albumin-absorption","red","serotonin-receptor-signaling-pathway","skeletal-muscle-satellite-cell-commitment"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(17),title("Count"),width(5),decimal(0),newdecimal(0),numbers(14,11,9,9,8,8,8,7,7,7,7,7,7,7,7,7,7),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(17),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,14),
+numbers(14,11,9,9,8,8,8,7,7,7,7,7,7,7,7,7,7),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(17),Strings(,"embryonic-skeletal-system-morphogenesis","meiotic-dna-double-strand-break-formation","reciprocal-meiotic-recombination","response-to-molecule-of-bacterial-origin","cellular-response-to-light-stimulus","negative-regulation-of-b-cell-proliferation","protein-chromophore-linkage","absorption-of-visible-light","antibacterial-peptide-production","antibiotic-metabolic-process","cellular-lactam-catabolic-process","detection-of-oxidative-stress","eosinophil-migration","positive-regulation-of-renal-albumin-absorption","red","serotonin-receptor-signaling-pathway","skeletal-muscle-satellite-cell-commitment",),,
+Weights(14,11,9,9,8,8,8,7,7,7,
+7,7,7,7,7,7,7),Layout("Centered"),Locations(,(13.5689310062364,37.7973194769269,455.128373309728,63.4019698511994),(241.577699771616,63.633299087569,598.006855722911,79.5758172451349),(379.185771233194,79.7089975425295,600,96.1691299259904),(32.5490779723845,82.5002777336769,303.05427242511,98.9604101171378),(61.5360482664907,98.9738045313616,264.716885737807,113.60503331666),(249.911521358975,22.8892694853051,497.538167027142,37.5204982706037),(207.337910437244,113.908619253052,382.63659494035,128.53984803835),(0,69.5983689415632,135.51140433931,82.4006941286995),(133.091200462867,128.812641014435,301.212301033562,141.614966201572),(102.358307640311,23.3659317333784,249.222717334252,36.1682569205147),(355.78031679889,96.2938388738597,524.867630591256,109.096164060996),(74.7300133820969,13.0078889076007,222.560636297708,23.1531277351426),(52.3467525893577,113.643440246417,160.321080111054,126.445765433553),(316.74860436278,128.550635703523,564.340742415887,141.352960890659),(349.000574355746,82.0229632154722,366.392412345818,92.1682020430141),(0.196451701505907,1.4210854715202e-14,195.613075784397,12.8023251871363),(111.563965551784,141.860064747261,326.304854068088,152.005303574803),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 1211"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("1211")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(36),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(578),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.4515625),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(36),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),FixedRowHeight(15),ScrollingRows(25),ScrollingColumns(3),IsScrollable(true),ColorByRowStates,sub(
+StringColBox(n(36),title("Term"),flags(48),
+ strings("sarcomere-organization","cardiac-muscle-contraction","cellular-calcium-ion-homeostasis","muscle-filament-sliding","ventricular-cardiac-muscle-tissue-morphogenesis","cardiac-muscle-fiber-development","regulation-of-heart-contraction","regulation-of-the-force-of-heart-contraction","muscle-contraction","regulation-of-cardiac-conduction","regulation-of-cardiac-muscle-contraction","adult-heart-development","cardiac-muscle-tissue-morphogenesis","detection-of-muscle-stretch","heart-contraction","cardiac-muscle-cell-development","regulation-of-heart-rate","cardiac-muscle-hypertrophy","ion-transmembrane-transport","negative-regulation-of-cardiac-muscle-hypertrophy","regulation-of-striated-muscle-contraction","bmp-signaling-pathway","heart-development","polysaccharide-catabolic-process","cardiac-myofibril-assembly","skeletal-muscle-myosin-thick-filament-assembly","heart-trabecula-formation","organic-cation-transport","regulation-of-smooth-muscle-contraction","response-to-muscle-stretch","response-to-unfolded-protein","striated-muscle-contraction","ventricular-cardiac-muscle-cell-action-potential","drug-transmembrane-transport","muscle-cell-differentiation","visual-perception"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(36),title("Count"),width(5),decimal(0),newdecimal(0),numbers(41,29,23,23,22,20,20,20,19,19,19,17,17,17,16,15,15,14,14,14,14,13,13,13,12,12,11,11,11,11,11,11,11,10,10,10),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(36),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,41),
+numbers(41,29,23,23,22,20,20,20,19,19,19,17,17,17,16,15,15,14,14,14,14,13,13,13,12,12,11,11,11,11,11,11,11,10,10,10),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(36),Strings(,"sarcomere-organization","cardiac-muscle-contraction","cellular-calcium-ion-homeostasis","muscle-filament-sliding","ventricular-cardiac-muscle-tissue-morphogenesis","cardiac-muscle-fiber-development","regulation-of-heart-contraction","regulation-of-the-force-of-heart-contraction","muscle-contraction","regulation-of-cardiac-conduction","regulation-of-cardiac-muscle-contraction","adult-heart-development","cardiac-muscle-tissue-morphogenesis","detection-of-muscle-stretch","heart-contraction","cardiac-muscle-cell-development","regulation-of-heart-rate","cardiac-muscle-hypertrophy","ion-transmembrane-transport","negative-regulation-of-cardiac-muscle-hypertrophy","regulation-of-striated-muscle-contraction","bmp-signaling-pathway","heart-development","polysaccharide-catabolic-process","cardiac-myofibril-assembly","skeletal-muscle-myosin-thick-filament-assembly","heart-trabecula-formation","organic-cation-transport","regulation-of-smooth-muscle-contraction","response-to-muscle-stretch","response-to-unfolded-protein","striated-muscle-contraction","ventricular-cardiac-muscle-cell-action-potential","drug-transmembrane-transport","muscle-cell-differentiation","visual-perception",),,
+Weights(41,29,23,23,22,20,20,20,19,19,
+19,17,17,17,16,15,15,14,14,14,
+14,13,13,13,12,12,11,11,11,11,
+11,11,11,10,10,10),Layout("Centered"),Locations(,(134.418858575037,67.6992690957889,440.469044471873,99.6926810337224),(296.386415686472,49.6510229687973,542.748938446454,67.5838235856418),(361.146950195507,99.797802770053,598.528349493851,114.020368776516),(152.035436371741,131.409274878592,320.674433305515,149.356798648652),(59.7843795456976,114.21417988702,398.917490718436,131.381376536643),(322.134807763894,132.164469708756,538.270696971839,147.771012117504),(240.622831592137,149.368048878888,437.029695490909,164.974591287636),(17.8470747358778,165.025402838465,295.23128132155,180.631945247213),(229.827761540359,102.181710397634,343.96164526924,113.930786663842),(175.621489827067,180.633684604061,372.838127152708,195.459899892371),(331.567371832167,165.116704779828,575.780314222642,179.942920068138),(155.925133689654,54.1668643249251,290.583093001361,67.4324253723609),(38.7866716505056,150.445697501644,240.02272980406,163.71125854908),(399.945052206938,121.142689964721,548.369159775419,131.655021360803),(374.123775440897,180.204698183901,461.284842478433,190.098657144919),(72.1844325176922,101.294253894601,228.544319669489,112.999160701162),(226.811790643767,37.9038990777344,339.664760042874,49.6088058842954),(443.527167947038,88.6770293269649,567.201654959758,99.6016090130886),(288.080823547687,26.5479287553087,418.969655636149,37.4725084414323),(5.6843418860808e-14,42.6477332130211,225.705938798215,53.5723128991447),(103.61459644462,26.2682798991523,285.416092353319,37.1928595852759),(36.9933455882091,90.3487777409937,134.225049425353,100.49303030668),(450.073170202869,78.4693347045823,528.738977834888,88.6135872702686),(178.820211194248,16.0476628872362,313.18370744164,26.1919154529224),(263.295882362816,195.903414635295,364.885639551836,205.267340080544),(235.105705567375,205.709287385393,416.023812283126,215.073212830642),(339.97414973096,42.3625699158762,429.535090742671,49.1646667015758),(66.5073116794642,132.404845861841,151.371566815336,140.988444186652),(278.874505583765,7.01188376064937,422.042447454204,15.5954820854608),(440.707398424724,69.5324457489122,535.288934683023,78.1160440737236),(47.584422238621,141.18874006025,150.749556821732,149.772338385061),(246.131810638541,0,341.037256267588,6.80209678569962),(437.235541199331,149.196418327842,600,157.780016652653),(215.896907927867,215.11546693517,314.394802941569,222.918738139544),(176.831798617386,195.693006259867,258.98699356155,201.876730610503),(78.8064297699676,82.4869595315991,133.429328200586,90.2902307359731),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 1212"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("1212")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(17),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(223),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.17421875),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(17),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(17),title("Term"),flags(48),
+ strings("erythrocyte-differentiation","mineralocorticoid-biosynthetic-process","transport","oxygen-transport","erythrocyte-development","glucocorticoid-biosynthetic-process","heme-biosynthetic-process","negative-regulation-of-viral-genome-replication","type-i-interferon-signaling-pathway","basophil-differentiation","bicarbonate-transport","erythrocyte-maturation","oxidation-reduction-process","positive-regulation-of-eosinophil-chemotaxis","steroid-biosynthetic-process","negative-regulation-of-blood-pressure","organic-cation-transport"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(17),title("Count"),width(5),decimal(0),newdecimal(0),numbers(16,16,16,15,14,13,13,13,13,12,12,12,12,12,12,11,11),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(17),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,16),
+numbers(16,16,16,15,14,13,13,13,13,12,12,12,12,12,12,11,11),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(17),Strings(,"erythrocyte-differentiation","mineralocorticoid-biosynthetic-process","transport","oxygen-transport","erythrocyte-development","glucocorticoid-biosynthetic-process","heme-biosynthetic-process","negative-regulation-of-viral-genome-replication","type-i-interferon-signaling-pathway","basophil-differentiation","bicarbonate-transport","erythrocyte-maturation","oxidation-reduction-process","positive-regulation-of-eosinophil-chemotaxis","steroid-biosynthetic-process","negative-regulation-of-blood-pressure","organic-cation-transport",),,
+Weights(16,16,16,15,14,13,13,13,13,12,
+12,12,12,12,12,11,11),Layout("Centered"),Locations(,(178.334432998354,67.1045696919107,394.631773532022,87.5390777993695),(253.67108011862,46.507732352917,573.297631459815,66.9422404603758),(427.969884725287,73.5472005736638,505.081236074188,92.4394816541445),(172.546592300099,119.988248160903,306.648051755298,137.699761673854),(139.1535953908,101.935601140155,322.003887276881,119.815795734181),(267.700924256661,29.8665281204974,506.095486411248,46.4695659578077),(244.131413167483,137.699817885626,424.571975323911,154.302855722936),(5.6843418860808e-14,154.654787151372,320.156691881719,171.257824988682),(153.432338650822,171.536429671074,392.766695399974,188.139467508384),(195.444637454633,14.4681689400257,340.028421233822,29.7940500206198),(367.089792003799,109.985964680887,502.42021362112,125.311845761481),(110.673619805756,49.7557784491116,253.522398179596,65.0816595297057),(68.4660141807057,138.600053315745,242.54488985085,153.925934396339),(322.688302711514,93.6236521343194,600,108.949533214913),(320.242135809607,155.777310417222,495.188514182427,171.103191497816),(80.147178693089,87.846088900555,298.034940848328,101.894813224433),(223.187807529946,0,362.084629147154,14.0487243238779),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 1221"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("1221")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(20),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(300),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.234375),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(20),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(20),title("Term"),flags(48),
+ strings("heme-biosynthetic-process","protoporphyrinogen-ix-biosynthetic-process","response-to-iron-ion","response-to-methylmercury","oxygen-transport","erythrocyte-differentiation","bicarbonate-transport","erythrocyte-development","response-to-zinc-ion","basophil-differentiation","erythrocyte-maturation","response-to-vitamin-b1","actin-filament-capping","aging","ammonium-transmembrane-transport","iron-ion-homeostasis","organic-cation-transport","oxidation-reduction-process","response-to-arsenic-containing-substance","response-to-platinum-ion"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(20),title("Count"),width(5),decimal(0),newdecimal(0),numbers(27,24,23,21,20,17,16,15,13,12,12,12,11,11,11,11,11,11,11,11),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(20),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,27),
+numbers(27,24,23,21,20,17,16,15,13,12,12,12,11,11,11,11,11,11,11,11),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(20),Strings(,"heme-biosynthetic-process","protoporphyrinogen-ix-biosynthetic-process","response-to-iron-ion","response-to-methylmercury","oxygen-transport","erythrocyte-differentiation","bicarbonate-transport","erythrocyte-development","response-to-zinc-ion","basophil-differentiation","erythrocyte-maturation","response-to-vitamin-b1","actin-filament-capping","aging","ammonium-transmembrane-transport","iron-ion-homeostasis","organic-cation-transport","oxidation-reduction-process","response-to-arsenic-containing-substance","response-to-platinum-ion",),,
+Weights(27,24,23,21,20,17,16,15,13,12,
+12,12,11,11,11,11,11,11,11,11),Layout("Centered"),Locations(,(105.843119301387,31.4032490102358,375.034296469076,56.1725760760127),(208.260370263688,56.2076959334968,600,78.2248755475207),(375.289686244805,34.1691812253734,552.448360261735,55.2689783554796),(73.3247688698648,78.2698554374565,289.238525556448,97.5348875997274),(116.605673196188,97.6072141745046,245.039220944661,114.570135575246),(296.27559704711,78.5266798267046,461.352516841879,94.1221820533048),(245.880824835748,99.2283087025767,375.491391620191,113.906428445259),(17.7792797783786,62.6388378126271,158.502290990654,76.3995750713921),(168.453310466493,114.572336018627,268.361455696168,126.498308309557),(161.914077310421,20.3641186848416,265.768698131289,31.3727084918535),(376.376302879767,94.516143422784,478.984668250784,105.524733229796),(107.56533277964,9.20284666709447,210.796825875582,20.2114364741064),(73.6730385502014,114.921139075353,165.63630528708,125.012346398447),(399.087394685168,105.586398932746,422.316211542102,115.677606255841),(276.678682980593,115.70396696009,430.902794899581,125.795174283185),(67.6022021627506,23.311520893646,154.043864892653,31.3083266968528),(212.487671592075,10.1854940074338,312.257343993989,20.2767013305281),(461.6301016241,78.9791104769987,576.250984803398,89.070317800093),(218.544424224573,0,388.571747611803,10.0912073230943),(0,52.2393460249556,104.339275718031,62.3305533480498),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 1222"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("1222")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(20),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(282),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.2203125),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(20),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(20),title("Term"),flags(48),
+ strings("heme-biosynthetic-process","protoporphyrinogen-ix-biosynthetic-process","response-to-methylmercury","oxygen-transport","bicarbonate-transport","erythrocyte-differentiation","chloride-transport","regulation-of-immune-response","response-to-zinc-ion","basophil-differentiation","erythrocyte-maturation","positive-regulation-of-glial-cell-proliferation","response-to-vitamin-b1","cellular-response-to-antibiotic","response-to-arsenic-containing-substance","response-to-platinum-ion","actin-filament-capping","embryonic-hemopoiesis","mineralocorticoid-biosynthetic-process","organic-cation-transport"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(20),title("Count"),width(5),decimal(0),newdecimal(0),numbers(26,23,21,20,16,16,13,13,13,12,12,12,12,11,11,11,10,10,10,10),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(20),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,26),
+numbers(26,23,21,20,16,16,13,13,13,12,12,12,12,11,11,11,10,10,10,10),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(20),Strings(,"heme-biosynthetic-process","protoporphyrinogen-ix-biosynthetic-process","response-to-methylmercury","oxygen-transport","bicarbonate-transport","erythrocyte-differentiation","chloride-transport","regulation-of-immune-response","response-to-zinc-ion","basophil-differentiation","erythrocyte-maturation","positive-regulation-of-glial-cell-proliferation","response-to-vitamin-b1","cellular-response-to-antibiotic","response-to-arsenic-containing-substance","response-to-platinum-ion","actin-filament-capping","embryonic-hemopoiesis","mineralocorticoid-biosynthetic-process","organic-cation-transport",),,
+Weights(26,23,21,20,16,16,13,13,13,12,
+12,12,12,11,11,11,10,10,10,10),Layout("Centered"),Locations(,(99.1484326573993,44.2771626888581,373.695699785019,69.539324421087),(202.38677372256,69.5471155550326,600,91.8944124720043),(339.920357152856,91.8967504548483,568.599751527183,112.300804161649),(105.973908029835,91.928091298825,242.000932741837,109.893924751354),(104.016265094586,110.156538711133,241.289898658396,125.702484392504),(279.813024594494,28.5200261495095,444.365393033164,44.0659718308811),(244.897802743088,92.0514630311116,337.605169854759,104.682543897226),(5.6843418860808e-14,76.7786152547029,162.774117576532,89.4096961208173),(164.248573389479,125.888838366221,270.06366592825,138.519919232336),(147.846275567795,32.0955059979943,257.841174256745,43.7549652590231),(365.236653611421,112.536448026528,473.911613516104,124.195907287557),(54.1914446480484,20.0015495319224,261.201843980653,31.6610087929511),(52.757768478679,126.053261736957,162.092697775496,137.712720997986),(343.834056389784,124.223029450679,473.701366775205,134.910867106622),(271.393263422785,135.74431688251,451.473245059712,146.432154538453),(36.6157071720135,33.1846595633357,147.123915388179,43.8724972192787),(181.106735647246,10.281575672858,269.652629091851,19.9977917237153),(445.681924979387,59.8224952145102,539.727563358439,69.5387112653674),(233.979763119022,1.4210854715202e-14,385.956048140922,9.7162160508573),(2.9978595182717,66.7731241900658,99.060071039955,76.489340240923),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 2111"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("2111")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(16),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(139),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.10859375),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(16),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(16),title("Term"),flags(48),
+ strings("visual-perception","regulation-of-timing-of-neuron-differentiation","epidermis-development","negative-regulation-of-epinephrine-secretion","negative-regulation-of-feeding-behavior","obsolete-transformed-cell-apoptotic-process","respiratory-tube-development","vitamin-a-metabolic-process","defense-response","negative-regulation-of-norepinephrine-secretion","epithelium-migration","gastric-motility","lactate-biosynthetic-process-from-pyruvate","negative-regulation-of-acrosome-reaction","negative-regulation-of-defecation","sodium-ion-transmembrane-transport"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(16),title("Count"),width(5),decimal(0),newdecimal(0),numbers(15,12,9,9,9,9,9,9,8,8,7,7,7,7,7,7),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(16),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,15),
+numbers(15,12,9,9,9,9,9,9,8,8,7,7,7,7,7,7),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(16),Strings(,"visual-perception","regulation-of-timing-of-neuron-differentiation","epidermis-development","negative-regulation-of-epinephrine-secretion","negative-regulation-of-feeding-behavior","obsolete-transformed-cell-apoptotic-process","respiratory-tube-development","vitamin-a-metabolic-process","defense-response","negative-regulation-of-norepinephrine-secretion","epithelium-migration","gastric-motility","lactate-biosynthetic-process-from-pyruvate","negative-regulation-of-acrosome-reaction","negative-regulation-of-defecation","sodium-ion-transmembrane-transport",),,
+Weights(15,12,9,9,9,9,9,9,8,8,
+7,7,7,7,7,7),Layout("Centered"),Locations(,(176.208515314149,28.1487261366219,347.618807749684,52.6359107702699),(235.556769075066,52.6472823602255,600,72.2370300671439),(390.747294718786,37.6986594942162,532.403347712681,52.390970274405),(76.4507290887964,72.2949007232206,343.407243830717,86.9872115034094),(88.5276281813374,87.079381897559,328.040015239509,101.771692677748),(245.842252284362,13.0724943533419,510.30384632776,27.7648051335307),(220.813064528711,101.85322225772,399.338501178552,116.545533037909),(40.8329529316671,57.5520367267589,210.210347020258,72.2443475069476),(199.499606143658,116.736207107688,292.889724142677,129.7960389123),(115.171161710926,0,370.207499782127,13.0598318046122),(384.784440254459,72.2541655658068,482.455965378104,83.6815183948425),(154.760065047477,16.6527838598016,224.833455036846,28.0801366888373),(21.0023834604221,103.373050039961,219.148369307286,114.800402868996),(343.811749825989,83.885007214191,536.56747490444,95.3123600432267),(295.855604673202,116.731639237482,451.310725234235,128.158992066518),(-5.6843418860808e-14,43.4129155474924,174.86005932732,54.8402683765281),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 2112"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("2112")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(20),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(285),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.22265625),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(20),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(20),title("Term"),flags(48),
+ strings("epidermis-development","keratinocyte-differentiation","regulation-of-epidermal-cell-division","hair-follicle-morphogenesis","keratinization","negative-regulation-of-stem-cell-proliferation","anterior-posterior-axis-specification","bicellular-tight-junction-assembly","establishment-of-skin-barrier","anatomical-structure-morphogenesis","chloride-transmembrane-transport","polarity-specification-of-proximal-distal-axis","transcription-from-rna-polymerase-ii-promoter","hemidesmosome-assembly","keratinocyte-proliferation","negative-regulation-of-mesoderm-development","neural-fold-formation","positive-regulation-of-cell-motility","regulation-of-asymmetric-cell-division","response-to-peptide"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(20),title("Count"),width(5),decimal(0),newdecimal(0),numbers(38,17,17,16,15,15,14,14,14,12,12,12,12,11,11,11,11,11,11,11),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(20),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,38),
+numbers(38,17,17,16,15,15,14,14,14,12,12,12,12,11,11,11,11,11,11,11),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(20),Strings(,"epidermis-development","keratinocyte-differentiation","regulation-of-epidermal-cell-division","hair-follicle-morphogenesis","keratinization","negative-regulation-of-stem-cell-proliferation","anterior-posterior-axis-specification","bicellular-tight-junction-assembly","establishment-of-skin-barrier","anatomical-structure-morphogenesis","chloride-transmembrane-transport","polarity-specification-of-proximal-distal-axis","transcription-from-rna-polymerase-ii-promoter","hemidesmosome-assembly","keratinocyte-proliferation","negative-regulation-of-mesoderm-development","neural-fold-formation","positive-regulation-of-cell-motility","regulation-of-asymmetric-cell-division","response-to-peptide",),,
+Weights(38,17,17,16,15,15,14,14,14,12,
+12,12,12,11,11,11,11,11,11,11),Layout("Centered"),Locations(,(78.507021572948,32.4195540152396,445.548326994343,70.4884173955409),(324.033177740596,70.5973360504847,510.408050098973,87.6281433521984),(348.393922316192,87.7849638663789,600,104.815771168093),(119.332403997498,95.4782606123803,296.558651789804,111.507255719876),(157.076317187705,83.4989012602326,239.016993828026,95.4072348896218),(254.151716943196,111.656203854852,529.46104918455,126.683386768128),(213.598449506426,127.046816697077,414.45234338879,141.072187416136),(22.1357170365579,111.626388313377,211.875166198159,125.651759032435),(158.729630174056,71.9980319390891,323.329263895835,83.1124766598523),(166.75069688677,141.154257467051,345.035463223911,153.176003797673),(356.052059802045,141.134367493937,523.902857625816,153.156113824559),(81.8493345193855,20.33230073975,294.838387433603,32.3540470703714),(31.4479295427429,153.20127766542,259.180633617157,165.223023996041),(414.707962525636,129.325581306887,535.095544883699,140.34551544329),(311.38249550934,153.182013471627,424.07691630048,164.20194760803),(0,127.340481570944,212.705521161137,138.360415707347),(221.125660102858,11.4929503348698,317.602064617783,20.2257283297552),(446.591414458012,57.8783757490455,599.622952654098,68.8983098854486),(247.522696830484,-1.4210854715202e-14,416.356404731601,11.019934136403),(62.8822315330996,70.4917458680678,153.952630622619,81.5116800044708),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 2121"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("2121")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(35),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(614),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.4796875),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(35),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),FixedRowHeight(15),ScrollingRows(25),ScrollingColumns(3),IsScrollable(true),ColorByRowStates,sub(
+StringColBox(n(35),title("Term"),flags(48),
+ strings("blood-coagulation","platelet-activation","immune-response","regulation-of-immune-response","cell-adhesion","cell-surface-receptor-signaling-pathway","t-cell-activation","inflammatory-response","integrin-mediated-signaling-pathway","negative-regulation-of-interferon-gamma-production","positive-regulation-of-leukocyte-migration","response-to-lipopolysaccharide","positive-regulation-of-interleukin-4-production","thrombin-receptor-signaling-pathway","adaptive-immune-response","leukocyte-migration","platelet-aggregation","positive-regulation-of-interferon-gamma-production","positive-regulation-of-t-cell-proliferation","innate-immune-response","platelet-degranulation","signal-transduction","heterotypic-cell-cell-adhesion","t-cell-proliferation","vasoconstriction","angiotensin-maturation","bile-acid-signaling-pathway","leukocyte-cell-cell-adhesion","monoamine-transport","neutrophil-chemotaxis","calcium-mediated-signaling","negative-regulation-of-endopeptidase-activity","negative-thymic-t-cell-selection","positive-regulation-of-cell-adhesion","positive-regulation-of-endothelial-cell-migration"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(35),title("Count"),width(5),decimal(0),newdecimal(0),numbers(44,41,32,28,25,21,21,20,19,19,19,19,17,17,16,15,15,15,15,14,14,14,13,13,13,12,12,12,12,12,11,11,11,11,11),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(35),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,44),
+numbers(44,41,32,28,25,21,21,20,19,19,19,19,17,17,16,15,15,15,15,14,14,14,13,13,13,12,12,12,12,12,11,11,11,11,11),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(35),Strings(,"blood-coagulation","platelet-activation","immune-response","regulation-of-immune-response","cell-adhesion","cell-surface-receptor-signaling-pathway","t-cell-activation","inflammatory-response","integrin-mediated-signaling-pathway","negative-regulation-of-interferon-gamma-production","positive-regulation-of-leukocyte-migration","response-to-lipopolysaccharide","positive-regulation-of-interleukin-4-production","thrombin-receptor-signaling-pathway","adaptive-immune-response","leukocyte-migration","platelet-aggregation","positive-regulation-of-interferon-gamma-production","positive-regulation-of-t-cell-proliferation","innate-immune-response","platelet-degranulation","signal-transduction","heterotypic-cell-cell-adhesion","t-cell-proliferation","vasoconstriction","angiotensin-maturation","bile-acid-signaling-pathway","leukocyte-cell-cell-adhesion","monoamine-transport","neutrophil-chemotaxis","calcium-mediated-signaling","negative-regulation-of-endopeptidase-activity","negative-thymic-t-cell-selection","positive-regulation-of-cell-adhesion","positive-regulation-of-endothelial-cell-migration",),,
+Weights(44,41,32,28,25,21,21,20,19,19,
+19,19,17,17,16,15,15,15,15,14,
+14,14,13,13,13,12,12,12,12,12,
+11,11,11,11,11),Layout("Centered"),Locations(,(129.203383795133,74.158057331867,368.065576538916,106.289266000447),(256.305614639713,44.0963309995905,473.232608326729,74.0367754407673),(335.45269950786,106.406352124689,505.643389676942,129.774503883656),(73.2950717128445,141.859674339668,336.793028221388,162.306807128765),(150.780435551195,127.387467106292,248.951474043319,141.854778041973),(226.157838214238,28.7481200138131,471.812777902107,44.0834696056353),(238.443646438609,114.203153887063,335.08528348896,126.355695073035),(68.8252572816877,112.767847216447,204.680196163419,127.372942065801),(138.559526903385,162.384324556671,346.158549634729,176.259164663558),(91.3762512870347,176.503541960051,389.030839995153,190.378382066938),(268.379337190766,190.440273122641,506.345934495673,204.315113229528),(79.7610185525079,60.0317898613406,254.636361786477,73.9066299682274),(31.0305893261787,190.565487173763,266.200173183521,202.979817795715),(336.983506680601,149.74449985435,525.775025195559,162.158830476301),(266.512928167855,130.081052038957,395.699125627806,141.76512791844),(61.3185497722588,130.893153087793,149.982498220935,141.846974224809),(163.624891995523,48.4223802628698,253.942247408277,59.3762013998857),(368.316349158589,92.565426628531,600,103.519247765547),(211.144154608457,17.591595363535,390.745486081415,28.5454165005509),(25.0444111789583,102.321068765482,128.437459999294,112.544635160031),(133.135101633382,38.1092028933767,224.76140422603,48.3327692879248),(49.4480751992924,92.0535034866026,128.536041647684,102.277069881151),(368.590800337789,82.9763876000959,481.794063811653,92.4696992521764),(138.404659480538,28.481031688292,208.440222800603,37.9743433403724),(254.819397573716,106.492691042729,317.152840119452,114.015692729283),(241.924999183568,204.487855415564,324.760688083869,213.250912325176),(248.451846429222,8.63960015342227,346.49887939904,17.402657063035),(38.3373798112839,162.989618920909,136.715094173917,171.752675830522),(254.178823009975,213.390809513151,331.888950321635,222.153866422764),(395.971662185851,130.196023561572,475.169855765181,138.959080471185),(5.6843418860808e-14,173.018127605841,89.4217599738781,181.050929772986),(178.000264736363,0,326.986010591147,8.03280216714498),(396.082250999901,139.253352667472,498.235244597179,147.286154834617),(182.07342692087,222.445109865274,297.86702797179,230.477912032419),(84.0652040280147,203.299646550817,240.629065134822,211.332448717962),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 2122"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("2122")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(68),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(1169),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.91328125),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(68),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),FixedRowHeight(15),ScrollingRows(25),ScrollingColumns(3),IsScrollable(true),ColorByRowStates,sub(
+StringColBox(n(68),title("Term"),flags(48),
+ strings("blood-coagulation","negative-regulation-of-endopeptidase-activity","triglyceride-homeostasis","fibrinolysis","platelet-degranulation","muscle-contraction","reverse-cholesterol-transport","cholesterol-homeostasis","muscle-filament-sliding","acute-phase-response","cholesterol-efflux","negative-regulation-of-fibrinolysis","high-density-lipoprotein-particle-clearance","high-density-lipoprotein-particle-remodeling","lipoprotein-metabolic-process","muscle-cell-fate-commitment","skeletal-muscle-contraction","cholesterol-metabolic-process","plasminogen-activation","low-density-lipoprotein-particle-remodeling","retinoid-metabolic-process","synaptic-transmission","complement-activation","hyaluronan-metabolic-process","neuromuscular-synaptic-transmission","positive-regulation-of-muscle-cell-differentiation","protein-polymerization","triglyceride-catabolic-process","chemical-synaptic-transmission","muscle-organ-development","phospholipid-efflux","skeletal-muscle-cell-differentiation","transport","vitamin-transport","cation-transport","chylomicron-remnant-clearance","positive-regulation-of-myoblast-fusion","skeletal-muscle-tissue-development","cholesterol-transport","high-density-lipoprotein-particle-assembly","phospholipid-homeostasis","positive-regulation-of-cholesterol-esterification","positive-regulation-of-myoblast-differentiation","positive-regulation-of-peptide-hormone-secretion","amino-acid-betaine-catabolic-process","amino-acid-betaine-metabolic-process","glycine-biosynthetic-process","l-methionine-salvage","lipoprotein-biosynthetic-process","maintenance-of-mitochondrion-location","negative-regulation-of-cholesterol-import","peptidyl-glutamic-acid-carboxylation","positive-regulation-of-lipoprotein-lipase-activity","very-low-density-lipoprotein-particle-assembly","bioluminescence","cation-transmembrane-transport","glyoxylate-catabolic-process","negative-regulation-of-blood-coagulation","ornithine-metabolic-process","positive-regulation-of-blood-coagulation","protein-oxidation","regulation-of-complement-activation","regulation-of-myoblast-proliferation","response-to-glucose","response-to-triglyceride","sarcomere-organization","skeletal-muscle-fiber-development","triglyceride-rich-lipoprotein-particle-remodeling"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(68),title("Count"),width(5),decimal(0),newdecimal(0),numbers(57,42,39,37,33,32,27,26,25,24,24,22,20,20,20,20,20,18,18,17,17,17,16,16,16,16,16,16,15,15,15,15,15,15,14,14,14,14,13,13,13,13,13,13,12,12,12,12,12,12,12,12,12,12,11,11,11,11,11,11,11,11,11,11,11,11,11,11),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(68),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,57),
+numbers(57,42,39,37,33,32,27,26,25,24,24,22,20,20,20,20,20,18,18,17,17,17,16,16,16,16,16,16,15,15,15,15,15,15,14,14,14,14,13,13,13,13,13,13,12,12,12,12,12,12,12,12,12,12,11,11,11,11,11,11,11,11,11,11,11,11,11,11),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(68),Strings(,"blood-coagulation","negative-regulation-of-endopeptidase-activity","triglyceride-homeostasis","fibrinolysis","platelet-degranulation","muscle-contraction","reverse-cholesterol-transport","cholesterol-homeostasis","muscle-filament-sliding","acute-phase-response","cholesterol-efflux","negative-regulation-of-fibrinolysis","high-density-lipoprotein-particle-clearance","high-density-lipoprotein-particle-remodeling","lipoprotein-metabolic-process","muscle-cell-fate-commitment","skeletal-muscle-contraction","cholesterol-metabolic-process","plasminogen-activation","low-density-lipoprotein-particle-remodeling","retinoid-metabolic-process","synaptic-transmission","complement-activation","hyaluronan-metabolic-process","neuromuscular-synaptic-transmission","positive-regulation-of-muscle-cell-differentiation","protein-polymerization","triglyceride-catabolic-process","chemical-synaptic-transmission","muscle-organ-development","phospholipid-efflux","skeletal-muscle-cell-differentiation","transport","vitamin-transport","cation-transport","chylomicron-remnant-clearance","positive-regulation-of-myoblast-fusion","skeletal-muscle-tissue-development","cholesterol-transport","high-density-lipoprotein-particle-assembly","phospholipid-homeostasis","positive-regulation-of-cholesterol-esterification","positive-regulation-of-myoblast-differentiation","positive-regulation-of-peptide-hormone-secretion","amino-acid-betaine-catabolic-process","amino-acid-betaine-metabolic-process","glycine-biosynthetic-process","l-methionine-salvage","lipoprotein-biosynthetic-process","maintenance-of-mitochondrion-location","negative-regulation-of-cholesterol-import","peptidyl-glutamic-acid-carboxylation","positive-regulation-of-lipoprotein-lipase-activity","very-low-density-lipoprotein-particle-assembly","bioluminescence","cation-transmembrane-transport","glyoxylate-catabolic-process","negative-regulation-of-blood-coagulation","ornithine-metabolic-process","positive-regulation-of-blood-coagulation","protein-oxidation","regulation-of-complement-activation","regulation-of-myoblast-proliferation","response-to-glucose","response-to-triglyceride","sarcomere-organization","skeletal-muscle-fiber-development","triglyceride-rich-lipoprotein-particle-remodeling",),,
+Weights(57,42,39,37,33,32,27,26,25,24,
+24,22,20,20,20,20,20,18,18,17,
+17,17,16,16,16,16,16,16,15,15,
+15,15,15,15,14,14,14,14,13,13,
+13,13,13,13,12,12,12,12,12,12,
+12,12,12,12,11,11,11,11,11,11,
+11,11,11,11,11,11,11,11),Layout("Centered"),Locations(,(163.18953997443,41.1012426404097,353.746126835177,66.734489096297),(229.333552979588,66.8779051284199,579.646102856371,85.7655604117053),(361.63053055395,49.2924346914693,534.699490487989,66.8309717402343),(167.125488580399,90.2991259064071,239.960903203814,106.938250798825),(136.398577310601,107.132413145147,269.401271185488,121.972713724871),(324.349603461388,85.7732237336314,435.130029058232,97.177091074483),(269.721064746934,99.0959114827679,411.760305287004,111.237975593451),(65.4632248699605,75.9708271798122,179.518868319162,85.2364693942541),(190.990090062515,122.077088870499,296.628593331564,133.319740824835),(188.544685797305,30.2795573527649,284.459355753396,41.0725032289279),(384.882873535995,111.384957399452,460.840775645595,119.93785790509),(121.613317754156,20.1920183420737,257.136062670883,30.0855520618898),(73.9383025715493,66.7449289359524,228.705073625963,75.7390504994216),(328.372026406854,119.99664770203,490.435914956158,128.990769265499),(310.581163523725,129.209387202154,419.698525133361,138.203508765623),(59.8670451355009,89.3104127466146,166.608601049126,96.4378298346469),(206.689056999499,12.8952650468439,306.133495418234,20.0226821348761),(441.560936305557,85.8544743727033,539.766561754229,93.9491837798256),(246.654756752037,86.747493560337,322.714479105752,94.8422029674593),(28.0792750681685,58.9921149133496,163.092918764322,66.6371182422985),(105.449337426679,31.4479068426915,188.390411278483,39.0929101716403),(32.397939145277,51.2282840982415,98.6065528808905,58.8732874271903),(428.194267315019,42.0025238157399,494.988347454292,49.1978210665153),(173.363192492015,5.62266154121693,261.064362756182,12.8179587919923),(271.53146923076,111.422107012039,378.917886690445,118.617404262814),(228.848782686468,138.332528022167,369.768000541276,145.527825272942),(284.920280184792,33.7057477633388,351.442839673093,40.9010450141142),(53.6374601265626,96.6382515617526,139.030704857463,103.833548812528),(287.988977644961,26.8128691161169,372.372504955057,33.5584602887188),(415.085439407661,97.3279292421603,490.432420052573,104.073520414762),(36.0950281904721,103.864094357493,89.2961057404269,110.609685530095),(206.505582324011,0,300.180206909578,5.34556281602417),(465.544347499247,104.110732456026,490.999408527934,110.347222408055),(180.630837951322,77.2328770362816,228.35907738011,83.9784682088835),(149.108507062507,123.458234387426,190.328735888293,129.754119481855),(36.0776800472923,44.8699636503316,116.498702857256,51.16584874476),(278.398345949589,20.5100388935092,376.162750340431,26.8059239879377),(449.101549868171,35.6260201527286,540.094908025382,41.921905247157),(177.537687082921,134.183056914904,227.175056088859,140.029235931159),(195.930396393058,145.818687034475,296.197881785054,151.66486605073),(42.8633142548913,37.6886607012813,104.854872880086,43.5348397175363),(372.971821840652,29.4611579121147,483.828612620582,35.3073369283697),(490.466872393562,97.2176592689528,600,103.063838285208),(5.6843418860808e-14,110.840565112726,117.806022440761,116.686744128981),(462.244275360615,110.907772630155,544.107751628871,116.304245568237),(421.649780800167,130.181237977366,505.549661950718,135.577710915448),(492.542752895638,103.075611872517,554.449461317404,108.472084810599),(26.823425139443,67.8166379560698,72.6425349910787,73.2131108941513),(102.253652057941,14.6385522794774,172.611440741231,20.0350252175589),(307.123747705209,15.5375800450526,394.180056423317,19.8140302978719),(455.984338088409,24.0196356596367,547.011636326992,29.4161085977183),(269.624080738443,6.94185044961762,349.349331880289,12.3383233876992),(404.74084140793,18.4338727581842,509.208411869659,23.8303456962657),(490.685417978277,117.367327750088,592.505662093023,122.76380068817),(496.060731525569,43.997644317257,529.381406412119,47.9177237156747),(358.673318377443,43.7155626354683,423.821304570194,48.6623294953763),(224.902351717126,151.682944883382,281.276826875324,156.62971174329),(91.6170056704896,130.141446244497,174.685354827436,135.088213104405),(305.901463494902,1.22013840606475,362.089268205556,6.16690526597282),(299.043747156605,145.803299790212,380.618732733202,150.75006665012),(100.51144094387,104.277349430425,135.232144186998,109.224116290333),(444.482304131517,13.4278969736511,518.030460463735,18.3746638335592),(284.351909359673,153.065521642248,356.406702111541,158.012288502156),(98.7919706682942,53.1779016220008,139.672798680365,58.1246684819089),(356.22878074339,38.5990452040578,404.109750538349,43.5458120639659),(417.152608990099,104.168720447008,464.473567442427,109.115487306916),(484.82619381822,29.8251433543696,554.174265080704,34.7719102142777),(40.3972921240329,118.405209677753,136.252566937723,123.351976537661),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 2211"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("2211")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(27),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(413),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.32265625),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(27),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),FixedRowHeight(15),ScrollingRows(25),ScrollingColumns(3),IsScrollable(true),ColorByRowStates,sub(
+StringColBox(n(27),title("Term"),flags(48),
+ strings("chemical-synaptic-transmission","neuron-migration","behavioral-response-to-nicotine","glial-cell-differentiation","neuropeptide-signaling-pathway","transport","ion-transport","regulation-of-membrane-potential","locomotory-behavior","mesonephros-development","central-nervous-system-development","nervous-system-development","cell-differentiation","inner-ear-morphogenesis","pronephros-development","axon-extension","cell-cell-signaling","cerebellar-purkinje-cell-differentiation","neurological-system-process","neurotransmitter-secretion","pronephric-field-specification","rhodopsin-mediated-signaling-pathway","system-development","action-potential","metanephric-comma-shaped-body-morphogenesis","synaptic-transmission-involved-in-micturition","visual-perception"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(27),title("Count"),width(5),decimal(0),newdecimal(0),numbers(41,20,19,19,18,18,17,17,16,16,15,15,14,14,14,12,12,12,12,12,12,12,12,11,11,11,11),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(27),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,41),
+numbers(41,20,19,19,18,18,17,17,16,16,15,15,14,14,14,12,12,12,12,12,12,12,12,11,11,11,11),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(27),Strings(,"chemical-synaptic-transmission","neuron-migration","behavioral-response-to-nicotine","glial-cell-differentiation","neuropeptide-signaling-pathway","transport","ion-transport","regulation-of-membrane-potential","locomotory-behavior","mesonephros-development","central-nervous-system-development","nervous-system-development","cell-differentiation","inner-ear-morphogenesis","pronephros-development","axon-extension","cell-cell-signaling","cerebellar-purkinje-cell-differentiation","neurological-system-process","neurotransmitter-secretion","pronephric-field-specification","rhodopsin-mediated-signaling-pathway","system-development","action-potential","metanephric-comma-shaped-body-morphogenesis","synaptic-transmission-involved-in-micturition","visual-perception",),,
+Weights(41,20,19,19,18,18,17,17,16,16,
+15,15,14,14,14,12,12,12,12,12,
+12,12,12,11,11,11,11),Layout("Centered"),Locations(,(97.7542941108437,19.731352031438,467.385295055424,49.279531594127),(382.909173992131,49.3223357257484,485.709099207929,63.7360818538893),(401.859096236819,63.7655755378587,578.577062917309,77.4586343595926),(160.295868786962,67.8522713915398,289.475668991999,81.5453302132737),(131.952444980213,54.8167077179157,302.551368493096,67.7890792332426),(387.747822906354,77.6047697762173,436.70016824721,89.598094384727),(305.990962301874,65.6536043300193,371.641496553444,77.9052885389391),(49.7290273365277,81.7378752928848,219.172131584419,93.9895595018046),(221.444942401112,81.5618318102989,319.567199062117,93.0928287128116),(207.066510907464,94.3537278165837,334.995306731568,105.884724719096),(370.299186865347,89.6592661293468,532.65779891252,100.469575725452),(141.83897506872,8.76282433050871,270.950785905227,19.5731339266144),(131.066603022419,94.1789026563812,205.882104151694,102.174452395388),(396.745737455202,100.721424290853,499.926403134762,110.811046580552),(339.233552868573,111.065996258358,443.366069707539,121.155618548056),(107.026282747175,69.7823452235476,160.221164684239,76.6356735712675),(232.232332196201,106.11239789372,293.096414903332,114.760645570604),(467.828667579689,40.0954949514946,600,48.7437426283791),(298.596967990266,10.7292799987917,397.970229032204,19.3775276756763),(39.0731793315618,56.363183944965,131.919460994719,63.2165122926849),(153.434290180444,0,255.744691942833,8.64824767688458),(0,10.5828173533507,137.719264892275,19.2310650302353),(467.890614619612,29.9018347275519,540.992783661957,38.5500824044365),(179.389882928602,105.994887442109,229.946777366742,113.922447812586),(237.767646849179,121.262960473813,400.058269527823,129.190520844291),(254.353645958459,129.220579227605,398.395922123928,137.148139598083),(307.585141767212,53.986988333113,363.078064360554,61.9145487035905),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 2212"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("2212")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(24),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(309),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.24140625),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(24),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(24),title("Term"),flags(48),
+ strings("forebrain-neuron-differentiation","lipid-digestion","response-to-glucocorticoid","multi-ciliated-epithelial-cell-differentiation","neurotransmitter-secretion","female-gonad-development","olfactory-bulb-development","glutamate-decarboxylation-to-succinate","response-to-sucrose","brain-development","cerebral-cortex-neuron-differentiation","chemical-synaptic-transmission","neurotransmitter-biosynthetic-process","response-to-activity","response-to-camp","telencephalon-development","cerebral-cortex-tangential-migration","globus-pallidus-development","hippocampus-development","norepinephrine-biosynthetic-process","positive-regulation-of-vasoconstriction","regulation-of-synaptic-plasticity","response-to-amphetamine","response-to-ether"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(24),title("Count"),width(5),decimal(0),newdecimal(0),numbers(17,17,17,16,16,14,14,13,13,12,12,12,12,12,12,12,11,11,11,11,11,11,11,11),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(24),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,17),
+numbers(17,17,17,16,16,14,14,13,13,12,12,12,12,12,12,12,11,11,11,11,11,11,11,11),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(24),Strings(,"forebrain-neuron-differentiation","lipid-digestion","response-to-glucocorticoid","multi-ciliated-epithelial-cell-differentiation","neurotransmitter-secretion","female-gonad-development","olfactory-bulb-development","glutamate-decarboxylation-to-succinate","response-to-sucrose","brain-development","cerebral-cortex-neuron-differentiation","chemical-synaptic-transmission","neurotransmitter-biosynthetic-process","response-to-activity","response-to-camp","telencephalon-development","cerebral-cortex-tangential-migration","globus-pallidus-development","hippocampus-development","norepinephrine-biosynthetic-process","positive-regulation-of-vasoconstriction","regulation-of-synaptic-plasticity","response-to-amphetamine","response-to-ether",),,
+Weights(17,17,17,16,16,14,14,13,13,12,
+12,12,12,12,12,12,11,11,11,11,
+11,11,11,11),Layout("Centered"),Locations(,(146.538734016808,96.5191255073161,426.524816737931,113.661130571875),(364.43107596362,74.8014035407709,490.955399059172,96.4329813603329),(364.909644828911,113.681483884428,600,135.313061703991),(62.7933004898199,158.20406067726,408.898545602812,178.56319274273),(117.683854214558,142.062062151648,336.256422992908,158.195713977115),(297.773143092467,56.6125271090288,499.443790910803,74.4267676663151),(237.342504057663,178.712590031825,439.685387368727,196.526830589112),(25.8415260160775,125.513120577567,291.134461539008,142.054915380761),(205.839272613103,196.606213515662,341.606833733661,211.899570975219),(207.773335187774,81.0215682266672,325.894714624228,96.2909172757698),(336.319582945886,145.055499847029,569.969433489701,157.15573871613),(105.125296032084,65.5936307260244,296.136209608593,80.862979775127),(67.7811040914207,211.941518526857,302.007156486145,227.210867575959),(408.911737798602,162.199617421326,531.642732042332,177.468966470428),(347.360521237355,196.548982844319,460.007983090169,210.665928191602),(62.2486825189992,179.982044378866,235.685439642768,195.251393427969),(189.468668197926,42.286233350127,394.668552353083,56.2831366451377),(427.111095348062,98.5859661706022,592.961194768189,112.582869465613),(276.36963713451,28.1610709254147,431.391943439628,42.1579742204255),(0,81.5510046425105,206.784439245158,95.5479079375212),(95.0660635075835,14.1431661670736,312.94238838275,28.1400694620843),(3.85354100210498,51.1556046166058,183.172358687242,65.1525079116165),(410.517461948545,42.4599724018199,559.99382543866,56.4568756968306),(199.085615833031,0,301.28941913811,13.9969032950107),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 2221"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("2221")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(31),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(435),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.33984375),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(31),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),FixedRowHeight(15),ScrollingRows(25),ScrollingColumns(3),IsScrollable(true),ColorByRowStates,sub(
+StringColBox(n(31),title("Term"),flags(48),
+ strings("neuron-fate-commitment","central-nervous-system-myelination","oligodendrocyte-differentiation","cell-fate-commitment","negative-regulation-of-neuron-differentiation","eating-behavior","neuropeptide-signaling-pathway","regulation-of-neurogenesis","nervous-system-development","neuroblast-proliferation","telencephalon-regionalization","forebrain-development","negative-regulation-of-adenylate-cyclase-activity","oligodendrocyte-development","subpallium-neuron-fate-commitment","canonical-wnt-signaling-pathway","positive-regulation-of-notch-signaling-pathway","regulation-of-ion-transmembrane-transport","regulation-of-sensory-perception-of-pain","spinal-cord-association-neuron-differentiation","visual-perception","aggressive-behavior","central-nervous-system-development","glial-cell-fate-commitment","midbrain-development","negative-regulation-of-astrocyte-differentiation","positive-regulation-of-renal-sodium-excretion","regulation-of-timing-of-neuron-differentiation","spinal-cord-oligodendrocyte-cell-differentiation","synapse-organization","thalamus-development"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(31),title("Count"),width(5),decimal(0),newdecimal(0),numbers(30,20,20,18,18,17,17,17,15,15,14,13,13,13,13,12,12,12,12,12,12,11,11,11,11,11,11,11,11,11,11),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(31),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,30),
+numbers(30,20,20,18,18,17,17,17,15,15,14,13,13,13,13,12,12,12,12,12,12,11,11,11,11,11,11,11,11,11,11),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(31),Strings(,"neuron-fate-commitment","central-nervous-system-myelination","oligodendrocyte-differentiation","cell-fate-commitment","negative-regulation-of-neuron-differentiation","eating-behavior","neuropeptide-signaling-pathway","regulation-of-neurogenesis","nervous-system-development","neuroblast-proliferation","telencephalon-regionalization","forebrain-development","negative-regulation-of-adenylate-cyclase-activity","oligodendrocyte-development","subpallium-neuron-fate-commitment","canonical-wnt-signaling-pathway","positive-regulation-of-notch-signaling-pathway","regulation-of-ion-transmembrane-transport","regulation-of-sensory-perception-of-pain","spinal-cord-association-neuron-differentiation","visual-perception","aggressive-behavior","central-nervous-system-development","glial-cell-fate-commitment","midbrain-development","negative-regulation-of-astrocyte-differentiation","positive-regulation-of-renal-sodium-excretion","regulation-of-timing-of-neuron-differentiation","spinal-cord-oligodendrocyte-cell-differentiation","synapse-organization","thalamus-development",),,
+Weights(30,20,20,18,18,17,17,17,15,15,
+14,13,13,13,13,12,12,12,12,12,
+12,11,11,11,11,11,11,11,11,11,
+11),Layout("Centered"),Locations(,(111.008694931496,70.1152530762917,400.416751586535,92.5004066297201),(252.393643247681,92.6383008962308,523.502725172536,111.470255472925),(318.424111740194,111.616405200736,556.133123283743,130.44835977743),(136.188771230468,133.508480234641,284.570360498908,146.939572366698),(52.5882660518173,146.959052233548,362.142960904942,163.907811352572),(301.879574367617,54.074584873092,404.869046708271,70.0817462632817),(194.686959096126,163.963848697702,405.196232472772,179.971010087892),(50.8692237279674,107.165307239497,226.645977107031,123.172468629686),(155.214159665966,179.998541362053,323.902281086445,194.122507294574),(162.937030972837,55.9030863197755,298.047422063173,70.0270522522958),(322.258474688634,130.55782575722,480.446893132861,143.740193960905),(130.128326891804,92.6035448634426,244.914419835218,104.844315338294),(43.5263213056366,194.193969834246,283.7225721329,206.434740309097),(362.733176674964,146.373497360473,512.855833442003,158.614267835324),(284.709139813148,195.1577166429,468.089739002424,207.398487117751),(79.2157499904118,44.5874773115715,229.942450583496,55.8866500575878),(143.578122918602,33.1196034091296,359.115172847327,44.4187761551458),(401.305113220997,81.2867906369697,600,92.5859633829859),(216.012848211485,21.7703510320707,403.408562244472,33.0695237780869),(2.38111432841288,20.9624040129798,211.522406099016,32.2615767589961),(227.985705390758,112.017507096758,307.079914612872,123.316679842775),(45.4202719129432,93.3300492650626,129.648853656439,103.687624282244),(359.821132126599,43.6873118645383,515.380183328043,54.0448868817198),(157.496776775901,10.4317849474149,269.084990640253,20.7893599645964),(233.248469750671,208.002136040722,329.20260811739,218.359711057903),(188.498793786278,218.739493626316,385.488145056448,229.097068643497),(214.003499083229,-1.4210854715202e-14,404.739220154346,10.3575750171815),(5.6843418860808e-14,164.40004217394,192.689980508321,174.757617191122),(272.130052289514,11.3201971594876,470.487385165727,21.6777721766692),(404.803172825798,70.3627836941496,493.721977218583,80.7203587113312),(39.4512835596565,134.32370827901,136.187125701258,144.681283296192),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 2222"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("2222")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(23),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(1280),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(344),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.26875),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(23),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(23),title("Term"),flags(48),
+ strings("visual-perception","melanin-biosynthetic-process","forebrain-anterior-posterior-pattern-specification","dopaminergic-neuron-differentiation","developmental-pigmentation","eye-pigment-biosynthetic-process","telencephalon-development","forebrain-dorsal-ventral-pattern-formation","forebrain-development","cerebral-cortex-neuron-differentiation","melanin-biosynthetic-process-from-tyrosine","cell-proliferation-in-forebrain","diencephalon-development","metencephalon-development","pigmentation","positive-regulation-of-dermatome-development","spinal-cord-association-neuron-differentiation","camera-type-eye-development","male-sex-differentiation","midbrain-development","receptor-mediated-endocytosis","ventral-spinal-cord-interneuron-specification","melanosome-organization"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(23),title("Count"),width(5),decimal(0),newdecimal(0),numbers(33,28,22,18,17,17,17,15,14,13,13,12,12,12,12,12,12,11,11,11,11,11,10),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(23),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,33),
+numbers(33,28,22,18,17,17,17,15,14,13,13,12,12,12,12,12,12,11,11,11,11,11,10),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(23),Strings(,"visual-perception","melanin-biosynthetic-process","forebrain-anterior-posterior-pattern-specification","dopaminergic-neuron-differentiation","developmental-pigmentation","eye-pigment-biosynthetic-process","telencephalon-development","forebrain-dorsal-ventral-pattern-formation","forebrain-development","cerebral-cortex-neuron-differentiation","melanin-biosynthetic-process-from-tyrosine","cell-proliferation-in-forebrain","diencephalon-development","metencephalon-development","pigmentation","positive-regulation-of-dermatome-development","spinal-cord-association-neuron-differentiation","camera-type-eye-development","male-sex-differentiation","midbrain-development","receptor-mediated-endocytosis","ventral-spinal-cord-interneuron-specification","melanosome-organization",),,
+Weights(33,28,22,18,17,17,17,15,14,13,
+13,12,12,12,12,12,12,11,11,11,
+11,11,10),Layout("Centered"),Locations(,(168.059336802935,39.2270760859173,341.653750652543,64.0262780644329),(266.91116604702,64.1344371564828,515.441990677906,85.1761842897687),(273.399189037663,85.2603139227222,600,101.793115241733),(110.964933431716,101.816613619568,311.060038246359,115.343451062395),(117.15490099143,81.4827805694586,266.843394580446,94.2581270432394),(270.208603177348,26.2846477297672,445.688833987016,39.0599942035479),(224.705351195174,115.760679936412,369.814003595476,128.536026410193),(32.704169566465,70.1728731181286,225.82316953638,81.4452376538175),(190.011740471762,128.635570683953,288.669743540093,139.156444250596),(150.846788479166,18.3678448471305,300.336775019754,26.1096197357923),(322.34121514659,101.979509043369,494.319214459006,111.748891640966),(138.411902700751,30.1377729872224,244.754964358193,39.1556646157735),(105.855513712019,115.549952934659,205.903066119341,124.56784456321),(353.757219142695,55.1138165603674,460.780876394745,64.1317081889185),(342.212436359643,45.5269309163692,391.045170272741,54.5448225449203),(62.1826813901475,9.0689322839668,236.925600305657,18.0868239125179),(162.366413111808,0,329.28248268933,9.0178916285511),(410.002868535693,46.6664081430884,512.786982396332,54.9328088025936),(272.115847164031,11.5260817518772,351.504487460034,18.0768143499756),(75.4121556798897,59.8175254656724,151.993339148136,68.0839261251776),(145.843515208928,139.600343611625,250.031357483446,147.86674427113),(-5.6843418860808e-14,51.4607308077606,148.951181694857,59.7271314672658),(399.627492115174,18.5911873448648,478.746729988311,26.106097035324),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),)))))))))))))
+/* preview image PNG (v=1,x=300,y=300,b=14148,c=96,d=126,e=42,f=92,g=59,h=34,i=39,j=47,k=44,m=F563DF34EAD055723DB6DA4174853D0B)
+=v}uA%:{<d&52G3ALL(Oq^5$bhzW4E!!!84DJWjp!!!!M=wLI4kK=3<!!-=)<#fB$!!$Abz!YXr!!!67>>vs>!!&+I!!)vNhz_)n!0h%N>gN!&Mb<{{@Y%tbYe?TO%pGN)%kqf{::39eUfSYdk0Z8I#uQw9X-2r:FOVzcWW]a7-%0EpPZjgFPNW%Ql7?d_F!Mk|W>UO_Fwk^#W-wf8WR-+t4gHrWn1|&ay&kT1UeDss)s2zl0%V3MCb@2Y9eV|6GIQp-[1pop0?7HG!$[S7Ri0$H0?7HaxseG)0EoBoYJsTGYWfM.YUXbdYVLGrE!h#L
+D{^MDD}DrbE!7WpD|(mKD}k8iD|wRYJ2g].-tuuyYb%Kjw:}+KeB|GypmwR1p_=ScpByD^xFjJzzz6LFq@-)1vM&Bdss)6xy$$N$rXX^&wgTtru3Vj-zAS$6qxpE.w+lZkaE32)xG)|c!<eB>+-IR&==cEfy=Pev>wR8eN#h_l>z=:SZsQu^Xf%Uxid)Gl#.RwdFTcA2Rk@1]RfjOJ&N=ylgir|[tEt!TrK7)mU&75$r>G6RmBgmbOnE19_:}Jg^J<#!L-Uee?WhE&8onb$VlFLV^eqM6W6G@H<hl.R#{UPWRpio}LhMs-wWlwL4.0@U
+11]d#GIMZ_bBOvjGSS=@(@%$UW:^#IW0IiWg1pE4_^TXq1+dpsNyTo}[q&H7K5e<@ds^7dRQXAs#{UGR(SkfK=iM4PM:otDq|tXQsMccFTlwa6kSG^2Vhszkp5#3OKDXnN7yH%EyU%ofXTDCGO1pz2L}jt4>8dW)M1n-nC$dS<]RewP#Ueb@0n$7VgY+jf=vNZ1Ru:-<nh2[C6$!@+wI=eDooCxDZxYA6x$qhn507!sr:J_Z1&O#i?a_0fU[Xn_G83sIP=?aRFV@J8Dp_m[d$axzAButAArkww==bar17{}|5iXH}rKodd){8MTj}he1
+x4jxe!if-kpC>&zfO[V^8]AqTHmoeK-L2#ow{$C6QSLOi8&UCyFr=5eFgg=}U%97bO{Zku.M+=&Eh1mBi.evtwCeOATW{Qzsu13(MglvV!PtE5Ry19nKeQ=%lR5W2)Ax9iEeXCYQuDINM_ULkdEjh-aR8zAD9K4A[e]79avkRNz1nV&%Mi>[b>8PoXZ[==I%7=Oj-).@t._[RQwzL^EaBT)wCeH<.oHP]Eh:&aG!&7-l[aJe6s?%__g&>WCk[g=LsOlI>9<C3YY0y(YwkDOsVcnU5|a]IjQH3<vP?![pG9zXSSb^P17{}}U|<?jAH@xj
+<tPiY#M^!N(fuo03Lqe7[t.b:gIrZL19aO!9W(+dnHt=5w-(l&OV%^UngG%{Rff$4zE6?.a=]!5:]^oSqb{o3h!-=E&U(ve#&^]ERs?Roh)QRth)G$@0aiU(0Anvq(CG=g#{UT?14]:opGp6yD+(Z-=^[Yd@8YlrEFV76<$iDDA5ehbCicyp=B:yKBO7Di?u92YE&5Uw_-Jwv^1CU:L^O%Jc>$nZJWIIeueL9due9&_x>DUazufb>M@G#EU&>ow7gu<8M7jM-FEkigh+8}TaW0a)!(:%-(9Yvj:WIlC!(:%Y(9Yvj:WIlC!(:%Y(9Yvj
+:WIlC!(:%Y(9Yvj:WIlC!(:%Y(9Yvj:WIlCFUFI6LsTAha#rM(j%sBoj(TG%t7@Ibe(1|qJRGR2Oxfp#yK%tNrbH%au^MA7:%}+f1BwEzQQ{}qyuAH99YhdH(=VHQULcy]L7=]w:cFny.LwVzFp21r:2%N4_F:R0$<Ad3UCy6P8y!w3_TMUGFTscMqbTDvq{zE}@13T5:M+zJTn_bA^HSTKA(s^ZIq#}!ZJ.7v.]]1Et=#rQcyEr@u5+Ma&gQl%8OT4gxX6{02f}QFYKwq77QlU-Ox+FVDZH315I&B68pE4gyT[>nBzO{EmcV@s_LJD9
+$:c1_GIRdv1KgR5nylw(NxxY[yLPaU6duWN:9Qzn12MO<@asjw%y0{fRvk91_[cOO-!geo6XAHDh)wN7D{MF_!PthQvOiohV6t:G^FTfecITvyMhH5g{4O|>Xw&m-nIf-Vp.FU.raKTGdi}>99wN1?S@gR(hb?>iYEp}fxsm]BHdS6GD:@{%us}FwBMba<5IOpAp9j47d0ug:y}CZ1fG%6Nz[qDP3-6?$zMVTq{0uOzh[}&c{0tF]9XML]vjFy9xILXI=(crHntEznCz:bCSy)Q)wm:4o!=M)S1(KH{EMG!Y85lH9Kv1)WSh%VL7(U$0
+.DjfocPiwmRxh!}S-q]mhb?>iYEp}fnYe#rxXSjD8asxlmAvv$jk>aT8sD6lzv#XUlOa&VOX!0&No><Am8KveRx)=J:UZ5t{(^9]q[vYrHgBJ2!E7[wY7i|(3zk><NY.R5^EhBp1GLBtJ[ZUY^jtfe2ZB>&8XpU#eX8Q#lXMy]ZEWJhf(+jbusrF17-_H{GZP=PW_e{Qp0Da%^li^%ez{b_w|CCPv.8!f4)Ki]ptFraRwF]3EU.[)OTSHup]0c}0mSkr_Mc)nA:P3Yo>)EQ:qjV]5w(yyH3[kcKCq}kapA:6r6c7+_{6gvP1JkjIU>gX
+{6jQ3:=w(du<RGtYVeAr4#]:ZjgN62%^>Z%<HX:.>Ant5s&%%kw7|qwiqqv[z8hWiD.A4Of<690DtPFmHz6dCbYR@_f.o(E{)F8-:8z)O_S@-<55g1gpH7ai1+nLgps%ewKDFEJ=<He]v@(+vjUN@X5jLyw=PX|.$c9%46izenpkVl:38xY.GQc+{c8[C]O8hA9Lw?TnD1BkCwPEqu3oB4sj!tkzh-@[01B{eNwzVvl@ZKB?J-P{HzySTW17{q[(OY:2Njbr($7.vo1Hdgj=p@Kdtj%b^bXTuPVQ8@cPfUV08tq0vhb?>fO?)wC:]^qR
+!yEoga9=?SjjtAy0{:370x[_I5fHqnq|}xyyCXuZstG_pG32CF&gQg%_#x7Z+t8b.MglFgMn2]<AqM4@(.SPZ#4N$7Lkd<oT(xJKyW3pbP=?e#avxyuy1vc9OmPt|.:2SYJ=rDMI&%VgGT:4B{-gj(yv}]qFQqyBYYSU7JBwRUw=H=aw4g#WMuC?w:]^oxdAQqBGP6f#!Z|O{p+y(4K#FGGs2p<Qf.gpjn7H^(Ls9<mM?%7:avJ8?I=!t[#{UqE=BxvdEcQS)TA!w$Nw35Q>K6n]_i+Kp#tfbro=33a!:y4>qbRm]RGB+5S_{5s3I8iF
+2lJTKdZE}eIq%2QWR3frpmodXq&UoA+@Z=UTb=&Wbc7$ioSQ#>(S}1%WlkK0i(3vYFzeL=eV!8=4i!9tXfZBERB%bSH1w#ZW2BuYaTG3:J(:Kfb(!<[jzaKiYK(KkjL09e6UBx2YKA4@uLI#AEiw{qsHvGSw|5QTz2xCJ+t6qT+LID<ce%uKhaVxb.]#F0W}6LmI:wotVw#7UkDt8wc^L+XRbESk6z}Zmav}nnVLkppw$[i{jczJ5y9:6xhdw9@.c0nCi2U2w-=e+n4FUJbTjCt+:9fU}LB>O>ZJ0tZEl{Jxr)-<|l^@Oqlp2&HN^Js&
+lP=_R:D|vEv|aSywgW+ZQ23FxR(u.le>8fOT$(cC4JT^f7Zmkk+M%kYoXq04mcbHkm&xUHp=XEnu9r%!6vPTU61=3Cj!k1qeIoZdh<r]V^ZOe|Fr6u1)}}F)sGk}tr#:0.J<&|Cw-leuk#$[IkoY:)c!uIZv|0MrSr]lDsKSXIJ@cOIxs]|iCMt.#P(IQ#!|k^)S_($U!X1wIaRXM_]]$19t{2g8bW6o^ukFQ.Ix&WrcfP-?Fz]H2Jl|h_S:-0.118KPy3Mh}3-ushK&?c3h-wf)Nb%R&(3YWer&_o+yB?wc[}t8{JZ<tSwq!Q{T]PK!
+5kHj6p+nC(l74{Y4L:jvVLb@IjV+xD=C0prD].r!ZWSVr[)quRDW))BIlWLzo0Ee$O-a|^r]E{IwH1YfeIqlQb(U]CZ$B3@U>]4Li->y^cm&$XDPLkezfZ8!4U$fhop-%s&I<$7s9tF[>.H-JV^D1{DU}#l?X13A0bO|]Xx6pd(0RIjd1ZFgz9pjA)I08M$y}k[?8NhDb:1tygi^K4Xz<9{194_|ckkE#Dj[uv?XniQLOT35cHb@>HTgGJ+&u!}l)=8DY[6hLOjfT1<|{Tnn@)h]t=ynm.DrQV{5m(@XZ:SQqbQnH!squ8K{)X#mIVk(
+kkzuQkMqZDJbAmrl!V6#[Dyb0rh-C5po.4xxo>rIPbnfEk7YbGOHKP.RzeF2(p=?0GiwPT&gQg%g+yTrm5t@8WlC_MRs8|YT(w$z8:}|gRd%04P7&_t0I<:wLt#pB%)iNm=Tzz#?0I{E!!#gm(O9<xG1tZ8!!Bn?(Nt]KG1tZ8!!Bn?4Y(Gt-zIQeT_W%^erI<G)J+Fyx4E1!N6gREus<k?zmha<Mc9[jq}MHLOs^LBWO8J=Ou?PSkc&5S8IgQZD-M>OJaH7SXestUpDf7fES3U&IL82hmM&zTA_M2YnGlcHPG$np]Zk8]>z(fB7tR_6
+%m|eCZ1gbgd%%OMheqYazj1Lhs+VTf$OkZD>W_ctJ{X-w3|EqboU!w!yV!q&Ie<Wl?K<{MXj}qDtjzh$aMUaX]Bc0[Dii_p6)Wy|r$e<:KKBz-7?2zdidLYTkG]R{WaxD7#5e+#-lxKnZBOm+0kiz5t:4C+MTYXN+pkv.EOrL6bMIY#+828gSCkjgERQSj+zKJgz<4eRiWjmSvC}JTCMvnm:F<lOJVmG(ez9]Uv0ibtzjuY^aTMle.c(SO$0C=L+G8KR(4z?n3sA?=)kfry+GlR7))r|GsGajc74i1XDkuI0WayA9JHh)!#TXyKP1eF=
+[&IW&u_<v&fW$:2tbZ.l.hzJ@erhR2)_|]%fATtSALVpS-#_5Oz=$>ZmwX(rNG-#:626<4m5B-LnEpkJ:4]<hO})j>[TQ<-COBCRclp(K%c]XJD4}x4l)}(u2C72-xn{mj=qKHJv_l#2jcl[oK|KQt$JE(=PbukTRDGQ.@&h$imfxFMxGVgf]XUxl(rY4hNMq]6Kr$mIkYfBv4LLyJse.tW<2BHSwv|jO1zqyug[&GDp#d+KEb25&Y[Y@I-o!]px=]v1z9k+HNDFs?^Q8d=AbL9kAY^?RWU}MjGZUoaCe2&a@>-Dju?{^xKscAN4#Ll}
+KQ<NyZEaGP5G7VZYP1<Xt2Ri7Q(Y-^K>Xq#oH>B-i>83D_SBEZ)yiq>5KvStjVoh?!!!#(!:y5s:wHa(!!!$A!:y4F:wHa(!!!$A!:y4F:wHa(!!!$A!:y4F:wHa(!!!$A!:y4F:wHa(!!!$A!:y4F:wHa(!!!$A!:y4F:wHa(!!!$A!:y4F>PyR39yN^{b9SWeyR+Frs(^Yru^[fTzlW}!qMkHFvZg^{y5ekPrh=zBwu981uB<+FzO7DNp]W||opw(U9%1T$Y)I.dC.Ps)DIL<GC.y_@@T{M1^[?.EwuWnAwhT&owoFf2wkytPwrlUm
+wj:O3wq+1Owma@nwtQ{1wiGi}6BdmS3gZ4tpuh#Kj^$^pzqu0fC[=Vok6ECX?nY|3by^bq?pA.Qby_H+F$Xnfnr42j+QffRh%%qNU@9Sz$ac]r!|jj2RwJVv[1{Gss<^1oYV4S@rJi&zU(mB0crn}#OWKaaLz.<OL=OwCz{p0fFoei8+t5xq84G#lavOuKIL@}=i&VJE{)>RVih][m&rs&W<]&J.OLJJ|jF60(L67h>SNw8kMgm)A:?7FeaUHOd0y@J@Iz>lP9fXPJATg.riX<oIiX#fZAb+b=G$d=)pt9)^Ng{N2EW^]-qWl9K9#myo
+=!Y^[Ha#1BX1qE^eeg9<-{S_G7h]OQoN#vA0h%ZB-j7#6EcHQE974Gk9m$3v%l5qKgir|[DU9l5#nkf%Y)aNX(nz:]ig^TIODepn(EWzC-A#oXYwP8lyL3cM6a^{U=0lT{Id_$xh->H==5hFMbB1T6P=?a]h-#Z<qm+v08sAGun^).^Tj)ScNNb6$R{qBwa1Uzb&rX1Q8KmMpyPN7d#C=Y85@8IkY4em1X3hNZNczZ#Ox!3lsM.r)uruHR7g?dL&8WRJxZaJ)dVH)(N94O2OyVr5%Quh+H(_xl%QE?=bi^.(8JUaGM5ll1eWsTk>QMP1
+HAUiL+G_Rx4[l%R)wc9n=J4>98[V>2Rk<tDbUP$wTFY}f(n^&G>((d{Sd4oJWo7ACp!g1xB^D>]8u_i4vfFVnh-PzFU5^?4n{UgcT<$8(@[FAEy8V5Y&#?yw5jG:.O@iHg5%Dm=L9TVz:SD:equ$JDct]bS3:QyUMW.Nv6WTf]zV]i-T{[|biHP]gK>q(u2N)#p6BH5wlQ14[muNBQwf)j?xG0Sp@Ram1sI$=oo[<l!mxb7j@RaYFd[WjicO@M?7@^#x+e6S}vOed+JT?<Gb:KD7P=?aTh-0b=8VX[Z5FVi8UwLmp[6Rj^?|1EhyzD<K
+8ssWudAPhfdWyuOOSZvL3Rw}FzNd6|<WaaD%y+v|1$!hW9r>X0&8WRJq_pQ:>2[=OQO3tL!PtGW%(L1cFTiST)2wJjLf}_SI&]=H-?p:k8Yi&LN7Xai#qH:F=N8qcGj1aD+!D^dB[5=#7A=MELw-(b_pJK[Z|(tym?<#amSq}Hd}|Ppe!pQid}|lYo=Oj^yj}>+ovrwL9^q&aozX}soVL_FR4QuwRt!<{fe9E>!!_]_0xk<qi>k7K!!_]W0xk<qi>k7K!!_]W0xk<qi>k7K!!_]W0xk<qi>k7KtUl$k<9qZ:Qh.#ZJX^qUyZ7T}jNR=3
+dg[oKARMHhy}0o0Gb.hMX@cp=]{=f7kA6}gV5bxm9vWOR=<Q$pSj}[c8t1X40[T{ZP=?_t<CS)b+t5V6X#}j.0xtc4$#S7oDE3@2UrttEIq$cnQ%Rf&0&bh)Tn_bAHDltW!J:>buFG)8vr8yW[e]79<:)y:!:y4iRw<_-&H9<sWBRvG-eYiLmF:PTX?|4FCp6xRw9J@?0c9g_%y-!bSDB5vnzMu})!t](cj?<|?x.ThJtS52o70QVO]d$MJeh=0=#kgJlQ14]7dG10N.]W@lVqYckLEzF?77tb<:dsM+t6#D){mw)A2sds2<ht25jEw&
+MTRyUH(zn+3Q81XyW=to>:-KmP=?_iWp4LI?wV&C5jQa4Rs>7GBQae6N)!e|[e]7:<:)y:!:y4iQb%3E5jF.GST[#k!!!!?2<n{?yqb(YYXB@tUM+VA:]^oL0aiTp%y+k-?RQGV(NyD+(KHVoo>0S#1f?yiTjt+=.}9j&X9)m)[hU8pL71@GetVIDzj.@q(fDo(&Wbr5Of)_JS!KWY8GGg5dz@+G[.tQHS_rhQRd)yaPfUXZm^rl)kQix9([uQe(N<|%623bZ#IGZxOGPiem$vj_wH)32M:oZ^X}Dng@Y0[?r4[=CZAZWmUf2f<4^>lw
+DI5GythHfDTmff!BUZwZ+_}nfJllB%G+^m=.ad2(VoC%BDn[UxtS]IP4aMHKLv2)J@Y2XV^PrfQY@FrgoT6$Ci7GvrXqn-w<J%n5w3O-OkIAB@Q(k0v5CyVbfEbsFez+aR7tSj<QBO4xUr_>lgY{MrwvsD43VCXHLAlUA+ZsGX7IW.SGD>PW6:Q_UdFt$69u?nn@_z%tG&xsw%fBI&mxWIi7U<S=M4g9rN6%^6E.kB5Xq4x9Rc@:uJNomJkhyrDRJaMF??X#R@2!Xv^ju3d[7ZLHyuEAowAnB2y>%^)voqX?mfy)7M0):csU]oHe{nR:
+@]W(c0N-e_rK1wez|bntB&LO2VolRyyq<Z#_p2N{nGzi$89[)F=Y@aidj4}]7V1D{hknI8cJ.@jT>PUw-hWJjOs5:W:)RsGHir[&xIdfw<{4DsfFHl%ElB|A@?TM#s<(yWZ7?4nmKbGB000gZOAwo_:BdRhyA+{h!|jdH=+%U$ga+DoM&B6.cp8&WMX:I&Y<x_c4^R)jabgsEIx(d0t=QPVh{9nSdULhVyts:0a)hv$qzmD6>aUMzvCBr|i8Lx^0}yrL09x:cv#Zm{dhMA|ADQc4>)fYh0Anvg?tL4Zo@eyKpEw|u+79L{b$V0:9CwLx
+@!T+@N=vNqvd0a6cWKbbt5?y^u3K?TIfbQ|OIDk{yy):Hh{%PAA.6BkWl3jE0-a@zMS=&iY!^-m7nDQ]u:]eVv7bU((gpFr8Ht}n#uv)ZxP@1VcE$1ef.9<Py!^]-o?jGo!|jd4+%l.E7cn@}INNIh8$C:LVa_GfQ%L5y]IrLbd^LE{Q#l?XSCaa.j(twab:3dYFkit6fNA3+wbPQ44-IOplymU<QEhy+Fy8$X59_r$Z)z}acR)OQ&p[y8mu7w1v)l8Ep|w3#Ked4Un]lRl1VRKokQc[s5o:$:hl41.9IeQ&.Eb7ZO:YXGr-78:Y}14U
+e-5JDLLcoK$uH<6)2yDRo&_8:(XHqw(8B)7r8e3HcSBfzo3B!nc_P%+0|Qqd2@fZ7s!HfvU@9S{$ac]z!|jd$)0sDHh)NLTG7znXHJY7J=Q)UB&IY3EHJwWXsl0|]xS|JJ0xr9!0x[_ISN@T<IpwW!Hwk68+a&YF5jFvUvOXhN^5TCEX0t0+66U#+3ES?GlQ14]w})Li$jTh%K-Pq5Ly%|#UDoynzYN@.ARRz7mh.6$TSQ-89B8UpLbh-McCk<A(|[KMDw71Imy_7^EN?S3wwD)o2wIVU9-}>55jGixSJF9_4Y&|vD<^+YE2r^Z.BVx)
+E.&p0UReOEYLH07>s<]1&Tk@zwUJ]OZ&K^yIgN^btz^Yl1(VHXp]9CwmqIp)@Y+x3<_JEw&u<5<%y+g#C6rWZf-}FWrP|D[R%Cqn6BgIX+M?2Hj#wEjaNN:%wjfkKYYsD+OHr(Z5CYFbJyeHrT1@c<v$5sfM59n}?djYR^-pZ#AZ{E&JY)yTKv:eonD<xoAMLR9[e]78txTfFayRewcg<<y(MLt(<9.A{GUOeT]p-xC&2Tj9si62!J-[b!+DLZ]dAE(rl>(FqZ&u|&VN]Fu.2>A)%y+s(d$j[Ut?Y_UAP[VxmhLLx^Gi969i0+h9B@o?
+m!wf&jlPtx==Jc.G#B<Z7kyHoK2kACrbA0(WU|<gtVt_<YsKv8AML_B[e]78vP6F=4$YN9e+<h9%Q|<]0K%%xee3cNfB6TXW[7$U06IXMFyki[O=%%eci^9qk6DsDJi}C5k7&+np[}nfU6ORh+t5ozdc.A!X5bSK:]^oM0aiTp%y+k-?RQGV(NyD+V?bs.L!6rM>2[=PQO3tP!PtDR%(L4dFTg8jvb<pg0.KIk6nGnqe[uO20XD$Jax6uouY04-:}hy$q?@<c4HaGm-a<6wlPBTBcyDT|RiI]BRhOZZ&U-CsHBSuT8fDJ79HXR8tzyS@
+#c(f0Z2]_VC3fjbciW=:[{{pK9k81.o&xP7OJ85fUh(^k06u#njGIE-%CoU?I9.:byZtq[K|U:|Kc1HGW+NM}OoRK#:Ic>7L>k!Xi9M9f5jF.ISJF9_jucfiHMcibeoX1@+7+lg8g%LFe<es+=KdG5qxE@{IX#M0Lxp=S:C#W%nHXFp=<4wW7bH|vu[d??O<AdmMK7#nk6lix496JLuNgC3G(Sd{Gbys&zp:sEx.ZH>%slKNi&2IaSjY+gtB+h@Dk+fw^irry!NW+3?{E7I+MCX9.BOc<aK=]wH&+[nnuWdjtVBD3lz.}cN2Y7DyL)Wm
+A+T|wsAaV?AL8@+sm0|}LC23opDfB{4fL#!!|jg110hAEb.t=_MlehXng_EptL+dGO#yF?lz{R:]cK4Sciq3&ZZV.OXx_j)qy<IWFU7}toVABn8$JNEp#SjjCdk]SsIXYf]lQ+Z?@C)n<0Zm%X2C[p_8<Bs@M+NDk!KvMELwUnM$?0DPfcqejM5H9i2@}Y0|TUcnwSu8)$tK]9pbxH8Vq_?8D(^borR2CS@%[!YKTdtj7^=jtma3IU@9S}CMkr<hQJtKa?Oq$KEHm(j%}LZX9Rv?rCoigY%y8qi8e9<Idm:{^wwhAW-T-b{&kI_DShX_
+7$l&H(clPatI9rFx27![xN(9295FK9(NwsaV?bs.H>OLdiQ(_hc?J!kcystH!:y5R_7O?nn4={p^v.F7D2GSG8fDJ7A{i$ku?a|8MgqD)!PtE_1!zWg%JhD&$Cw&ILM+|jlQ14[0[T{[P=?_tF1hAT^TRfN_bzH##Ngcn#4N$75Dm$1&PDq$$Cw&I(O(fp0yC942@fZ7IWl?eQyzof]jO-(CiZ|$y+.nqJ>.Ek_NPm-b6ljmpu:o9x23.jH{$Ny9K.Pgo[G&v9LA3+B6VHvOWzSWY.S)F_B7Dls<CGypnu_?._uxU(>$([623bZCHT+r
+NLy4fI8lW#WW^d>0C9?$qUB%>dW&#([Gh>YwQ_6hp#vvh-N|m[b?!BoR8]_+M?2$$Zg9(wslfE|X^jh]Tm[d1wdu=UyPV4hCZCo7-BbM.jl(?OLLcoI7HwqyoH1cZe=G=[l2e!naS(?@]cERbeglGN4Q#EN6x(nxi9BNEKj4D.bkB3]J=imN.0{25etKc[mr(_&(&CEl5yLD<f?S<Vt9gPEX<:Up0AnviqcbT#Crp)[==DDo=O0rBa+w2WVY-6wO)V185[E|Gh9x8_qZ|8khwEu<0(?47o8_o_lWkw4NOt$BRWA_]+t5|!+FzUpez|Xa
+lUvdO+%3|[CxAX)J]yl}kF(?bo}ksm7N_s3Av<Lf#3pV95FXUv)@QzNR8H-.C=s:mEKas%w@xm+bi<6rH@X#P6BCfqlQ14]cp8c?-hoSsW6oe@5!=I9i1|p^roU+$lmo:U>O_GG:%>W.+{D%h@M@P8or&-:JJQFCi.fBAz0|U$yiUOXe>w1Ib:|voP=?aL5jY$C1fGeb(<58>(8B)7RhnpZ(O:W>(Nmo7Rs:mw5jGcH5jEH7<skFD<s:@m#X26k#4N$78fUPtstG_nmns:]zkMD3npk@3kkKL9b(RVMsEn70&):Lir!.0DU23_R<t_HW
+<eX<@{#%Zg6G1q1+qzGKg>Me?q@r1Q+NTZe:mkkpmmr9e_$zkf&}EUWIldTjFT}NqS-&Y)rifcO)E%-:Z&p|zbr$4hNWv3Dtf:A<BQ}+XGSn+%tGg#mC#!8Wmw_|T^0)<8st?}(ncg=fB_&8k$DfeBX(3<|y8vYZbz-src$B+DSBpBY3DumO$S$2ms}s[v=x]$xaG:43sHMa^y92a_OM}x<u{XVZ-otAtVUIp1PvdL{Ur_>l<${vFhWVeqrK|9<_#P{)maAhMFkiUs_p%-rLla_.!}VFMgs2R52-f&+uesao7ZBn[oS>}tl7Vg#8)6[1
+GdFj1yWGSDxP%])Zp>IkxklQG]Ib=:H^BFX23lexYIqv_keAW7d$3Ux+}%?#T!]eDFTgd$f$_?kvMi=Pk]}KiW)HiRbpx){Z^Vo|e&E$C4R7jk!:5<}aNuEHRUVigg7XkG!x0n9o^04NT_Ln.JQl}v6rvhMWO<b<rwxUpn7iz92%=qqpWRge.yuEebfJBDqjlg1ZFgV2tE%uPwj_Dik6nB(!:y6G(S=1R5sZo7ScP5btKh+V@B{ew.@d(8bvS1^Nr4nToTGC3L<wQudfEFZo#}XN8yRlIGis2$YZO}ZE[Sj+x[5t$s+G}9IcXcv][Epu
+nc(wKy|=Ta#s5}i1MaJXBxEiVos0+ba77l1vej_4>yqf(txfd$3se>+B>EEjtyy:e@JV[ZjFG>:uco5U.uck$7e5-%d+j^yf]0C|T1]qCwj9uhS6#FC7JB[p4?t^{Z&|K+-IwL|U9j{.>hs.WcDgTUHI{2yxZabXB8AnjstG_n9FUYA_Xx%!IH>(M@?4LV_Pd!04Lgb8gaSRV4-1$5Dlk[-sI6c)Cg-QBwi^:Gy2HtRYJwR|zGtcOuLIH<JInM9)?2rdb=R<EiV2AfBd%brJB!hk)BY#sZ<lq>!eneoi=e3IC=35icxrlVVwPfE!|jaf
+ct3htmwya&tZ7cy)Dzzt&bp-mr^R)e?)nDXE[ki?X0vin5jF6uvOXhNIbKmncw|:!j)U_U6%^]P2SlW&5jGXqS-&0^sA![?LLcoI>9%k30Anvf(CG=w#{UH&R|euE?|I@0s6geh^I(fjz}>|1&XS51:]^oodAFRVW]l4T?:?ba:1PmmipV}HQ&9H^b2qb4[[JEv(OCx10yD:!+3[v#S=<d%][cXhw-O-3o^UR)8S:}ji[HWCZEaU:z{d1<J}WLJC3mUZyx?k&s{759GZ2g}OLNiVIRAX^I^I_?MrwmO:VnW+aUsdxJWd0W4x#tUeHf@6
+$#@bI&e#tFi&2Iawvej:x0:&bOtDe$xJ?qfj(8DT8@kO@_F<Sqx!L{GmJD80JYHogV!-aC)!RzYP^AZeDIVH$G[-SZc}KujtLKo2JBq7WeoS(&y]In#+5|DLplqr<7(aY.Rk[dE6KFYZ+ZnX..OS(d>t{d$es-).EdXnjj$ebYU5m7qOJqBFWls9kqA3Zbh}[wdPEL9<oJ4jIt5NEi=v}6-]]k44jq(GH?v0|5fF430mMCrq$).QbG$)7Cmo!IA7]}#WU=wl^uU[dosK9l#YJi<l$JnEB+b&.8c>-%1^>sV{FU-Q2kZ4O8mB)9!stG_n
+IM9$%Z?[X<r|Dc_JjB_ujBqdqX{EWkuH]u8VmT(6UNf}MI_sxgI!)haT:xi6iInGGwueeFDr#Pbu1|xJs@|Y-UzkO}0AnvyD_c<kuLQE7^?BNm^kY<Ii<=wqRB(!wpSOThKD#TF^{O31qd-G12^&|bYyw2!uMrw2MPuLmmHjV+zDox&f?Ty>uk7^E[siyr>2[=PM=l$4jCX626-+|UPwlB!64d34_<[ED3ZUkprzc1tP=?_sh)JV7xR}:50QS#skC2F!>2[=K?tDx8))ARw&bp-msu5{T[e]78<:)y:!:y4iRt&Sh[y2Q(6dwxMpvIM2
+G__csEas-hA#zHP:y{>Vi_O:3Pjzv)Op|.lzj%&>9:cOrFTfVCFTekI(NyMoU@9Srmntb3=3a0$RS}ic9IE+vHTpHR=O9eyBF^I.nb$E7<y3(KB?Zz2>%k:cbSSIRJ<Q|y_e9uZ4L+u=_F9mKy5yb#PxLWga3on<pk=vd%7v&|?I??RET7[nkTq$h9:a6T^LY-:stG_nKDEtoQxw<TH$%)-7lj.|!sk4X]<W(fjMNX5tbI!19SEbBf?oP^cvD=k4cC5-?a-uht)L}!WqKRy<MM|lmZ:<v_|hsI?u_K|Uu?=DvSwc((&#_OgIO^|<6rcf
+X2C[pdY>76+@Ry4?1Wq5_9oW:Av$[o+<iu1wh@OMTjKqpL]=ZCL1ZCdDqli47_5oqt?s.lWt#&t]gb!>06@=&x0pKU:0^z].Eb7ZIDxElk$y^p&.2)e+b)v7aNyGzsmCe+x]4vKcWN3G6^H)i+_r&Nwv6V.LbJ6ODSC3MwcI759BO0+RU>iR%y+d%(C(?As?a=r]iWFBI1aeb2hrlga]Ucn_]1e>?:I}vr$EL-BH?v{+bXVhY##!@[U<!ZxF$2yGfZ+-FqJ{sX?{>NRvFPtbjk?p($a:I=vBp3(u$b)b=I-?:HNJ1Au#Fu2_!oxXYz}2
+Ed&#6Wm-Y0the[Fk0g3_:Gp<0(VSJmO2xqKB&uJ5kaz+.4rQ8(@VXEMbyXF>^)n|F%WPa9FTi60)HL=kJwG[K3}oLbw.wq!RsJ+<-X=es:bkSd3PoY7)#RW@&}Dnn:]^osqd#p+ymJMf[1n+K8w>DD8RGRLrza5CLLcoIH{$O_0Tl:G0K^2I2]2X:.Eb7ZlRgm&>2[=K@J#xJnoaT7ihN1<Oep(Z^]sU>aHZm@ugvAPzGg.0Tfe5T<tVG=<s:@m@dcT@famccLqJ1B15b{wgASX40UUf?0K^2I17}G^3>02?AM?PD[e]7:rj[-jkj1TG
+JP?s0Q#!nJSLcW^{0nutI5LkfY^n[e>Cl)Xn1ys@wSjJM8v2fDG9jzktLexZ01VKy%@9IMb9MgV!:y4mqcJv9rJ[4q+Vkr8diKiTUaaNbw%M}!lbqQ=ARAk:E.u56FUvGiF@(-&fB|dC9sT|xl:lboyhXILnmQ7[G(=jBG_D31Ok>Rs0xls)Ize)T2oUQK3fMCES2^|-TPoryGj|1fJVuL.b:W^8]Km97xSNrNOjS7z^)!RB=N}.Tlz2>WlqPvN{2[16wwU^w>2[=J49HK]Z_-e:_w!U(sx$5e(NO<niPP]-L9$BdEPXGx(Q4iRRsG2c
+wwcb)E=[2QW$G=n?(4atih$t#GR)lF?8m76oP1?&9FSe-R3.jwe@Uz8Upd9YRf8p+DuPqoMH9so(9BUob>|<.:Vt&!ATTU}_=sdApuP+PzNf8uGvBJ>jfQqULjt-m]JG%xTj}0w7o_ETEe^BMi{3xkuCnnS(L6d!Tn_bAQO3u@+t67zX#}j.0xtc4ALi=form^&>1>=#!|kGH(W7=yQd]+IE@_oWpc+:3)_zM(p]WVfZ8{.YfjNLYCMq>%QO:ib3m:oPE^esUtT+k24Xf5v4Xf-?F8bLu<shzc^F2[94wGrp1PA-ic{hs8mnuP]7G7A^
+h)Qcb==nHALh]M@yai!1fQ.YD1@pqpUkN:rse&8CZ6WJ:G[QPv=<qXCoXGlW[8|l&Z?Q4%qlZlh[sH{IL)xSaCMo?JpN7wDnYR.%0yB3c^F-pI_|FvYfQ!O>mVMN5W6cH6hN#?^nR_aT=B_fN)3h2ca>#:YtU<5$OpCs>st!puKqSDw(.idjt9BIiVagAq=I$:vSib7-x:=f4C8Lf(wK1c5yYbE{kfG}!zlRoLOwmqv:7TICpxr{k>9&6=j<fgrHJ:ojlM-IV+t:|.11Ir+zs$ufP+4Jco5h1%mf08eR&zKxbbMsm<fd8YC6dkJ:4R9<
+XnX@@:<13>zUjU%T[$?|qxbXENLKgvmcUzM!y#jD+^kyPugY-d2%}rzM.g#UavWOS!(+RF(W7.iGggm%zH[@x^@2:-lml^R7xR]Rv?uv3$aq!JEv!$?L}pf6.!I)uh)|b^ST]<Levg(CtB!0pCw6KzA9f#A40vF+4b88)TZDiEMS9Ww49C@p45}pT!PtcBavdVf(C^&j!D{eR<}93M7G8YF+f[bz1pT77i>K6^ML>g7C01[_XoJ?ymf8<Zv26)r0[T{^fnY&@h+&[G1^N4&6A<p!!@)yZ==mN#2N!YR0bO]}Q^j6Oa:BuQ7EOHEU}NPJ
+MIKaUML>g7(XI)k(]3%DV)Lj{Re1sgML>g7PAvzVUVu6ymm8Im$%>y@3hoLX9|ttwwXE=1x8::KU6Nll05o:?{+:OliEL%<(o<?8gb=]KxR:[JrC?rLm40OnMZYYu$Lt@O+IX<SNs57r0U$RSPEN[iP<{[pRwJjK_97_ZWZQ|iRXuV^s<(%NO+ME{wQDeqbYK1_=4O?e+)4zK01N{H:1{-!o!sN0v!2lpsUd-Fy{L95oddgNe<h-PiKHd&uc{0Szy4leIGcI}je2Y[udeISeusP+BHwcBCg.Z.9dq4(J]<_fE-3CCaNy{?@Sk_i_t!n-
+[x@YXivCb)F95#L?v>q]^EX}>m@<A6]RTTLdMi%)W[QhAC=W8Bp]W#fwrl@mOrz0fx9%|edMi#1Oj#6ya-4bqNNb&?vfbGw_<i3ML]c5K0(etP9f8-bd$d%Nfbp3Z@&yLpcu_<qy#-lPJWTeIxB3GOKe{4UX%R(svSZu7!!bTNxstF1cAK]!y0@&)a3%Fg^hRfRz8IiBt<pS4i)8hJN>rL?x[co:^s84m=n]wL?<3^#p5h3ROLSPBJn(?r8gze8d>H0[aI84Bb53M2x_@#Fj?>m8-3#pRx|f6m!!Cj9tx_Pddxm4ox8.9EY0g${mVMAb
+o:iP>Nm3P4w8bI<nFH^gRZDE?ciKfMYb7&Rc3WYWRD9Ldn&uT<cw<_TcjM{O6KDp{JALbn@Vjt=nnp6#)hdBZu45@ZOM6rEpu?KXDfvEJcW_LuaS#u#M7#p2QFP<&q@[I8boB.IxTRE^Tj8Zo0)VnzJ>V|9uK0jPJ@W]MO!QvqU%)t1fF?3{C[JWeLrjaR2}H__B5RdqpK[MN^@+>cMLwI2jH5<OMJK:sqsSUUZ%#BWpyF#>f_]?jaBDgXn&cRjRZ)a<C5muW94{IQpW$IY7&(wtC:4PdobjnQciYXD)Gp_:OG-a5Uy]i&hvBU7Cb2<e
+vh)O>vk.hc<FX9B)HA8zP1v<nfIhy5ohH<nim)-Jd^JPu6#Fas>U!6[<7scp]vFRI9Mzs0<qIvUTbBe}bDlYbKa0[wqzH5FUM+VB+)#XG<:)y?]Dxk+xsZREz@|b+IGK6l[K&{)eq0j-V+n9umECoNh5x6Y60zX#uE)1p)4#e4pQ$3d0WS]e4{_j(>Tmi2JpCQPagJCQf1eBVf5d!IH1op#yW05@an1qCIt[)U-5D+uZHaU[x>q=xh^2sWD_dF0ue>W]BW9Sn^Zy8XFKg)O+s-FGUqB]K4y%UgjB:Vmyk<LEFnWxktPi48^8QL9AWx.>
+yu>BR?-O0znIn$)Ch#}PBQx3go_|&h4Z}3%a7%&Jp<wW7GP_e>dN?5DNz=@onLjT3kz6z|xYm{xzl+YaD|su?S{iyZ_quLyF:vgnu(vzKoG7wMcjj#Y6BbfG>Eb:jn(QWDta0(9:92RS@[+k7O+S1g7D^lCNHKPqsMsJUN&:}SRx$zfB^K0$!#A=&<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2
+<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRd
+U>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p
+!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2
+<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p!#A=2<sVRdU>w=p:W=PoWNb:Dxc}L(!!!!!<z%5HPufxP
+ */

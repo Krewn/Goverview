@@ -1,0 +1,230 @@
+﻿/* JMP 13.0.0   01 */
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Text Explorer for 11"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("11")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(17),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(261),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(261),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(186),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.71264367816092),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(17),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(17),title("Term"),flags(48),
+ strings("inflammatory-response","acute-phase-response","neutrophil-apoptotic-process","meiotic-sister-chromatid-cohesion","adult-feeding-behavior","defense-response-to-gram-positive-bacterium","immune-response","negative-regulation-of-lipid-storage","positive-regulation-of-keratinocyte-proliferation","response-to-bacterium","response-to-temperature-stimulus","adaptive-immune-response","immune-system-process","meiotic-cell-cycle","negative-regulation-of-hormone-secretion","positive-regulation-of-wound-healing","cellular-response-to-interleukin-6"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(17),title("Count"),width(5),decimal(0),newdecimal(0),numbers(21,18,13,11,10,10,10,10,10,10,10,9,9,9,9,9,8),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(17),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,21),
+numbers(21,18,13,11,10,10,10,10,10,10,10,9,9,9,9,9,8),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(17),Strings(,"inflammatory-response","acute-phase-response","neutrophil-apoptotic-process","meiotic-sister-chromatid-cohesion","adult-feeding-behavior","defense-response-to-gram-positive-bacterium","immune-response","negative-regulation-of-lipid-storage","positive-regulation-of-keratinocyte-proliferation","response-to-bacterium","response-to-temperature-stimulus","adaptive-immune-response","immune-system-process","meiotic-cell-cycle","negative-regulation-of-hormone-secretion","positive-regulation-of-wound-healing","cellular-response-to-interleukin-6",),,
+Weights(21,18,13,11,10,10,10,10,10,10,
+10,9,9,9,9,9,8),Layout("Centered"),Locations(,(119.124130065787,44.3199584792276,449.465726333227,79.8333552382019),(274.137386027547,13.7046421769626,544.651831420704,44.1446965417977),(341.578616036898,79.9364166881867,600,101.920900396123),(103.913654658748,113.157753869641,360.133399469677,127.899163845064),(142.616582270318,96.1576091209731,300.560260578425,113.06875043477),(247.254225780872,128.307485695107,561.227113569108,145.218627008905),(265.601567084488,145.294377495038,388.765728351011,162.205518808835),(0,129.168351288048,245.371088119059,146.079492601845),(99.5663540327143,162.378274278714,425.664211064805,179.289415592511),(192.005502915567,179.437247199019,347.396556119704,196.348388512817),(361.303407071438,102.377228547742,594.549525946642,119.288369861539),(121.918500079948,79.8985050989411,290.200310059131,95.1185322813586),(107.502452378956,146.179011468103,256.831020961166,161.399038650521),(389.157909893487,145.851539126926,496.272440818803,161.071566309343),(254.514122829308,196.956312435042,513.8289255788,212.176339617459),(38.516890816762,28.7495032443663,268.540320498205,43.9695304267838),(194.682790242983,1.4210854715202e-14,377.450747687192,13.5289130510378),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 12"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("12")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(21),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(261),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(261),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(261),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(1),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(21),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(21),title("Term"),flags(48),
+ strings("ion-transmembrane-transport","mineralocorticoid-biosynthetic-process","sarcomere-organization","cellular-calcium-ion-homeostasis","glucocorticoid-biosynthetic-process","meiotic-cell-cycle","organic-cation-transport","meiotic-gene-conversion","cardiac-muscle-contraction","cellular-ion-homeostasis","nitrogen-utilization","peptide-cross-linking","regulation-of-the-force-of-heart-contraction","water-transport","ammonium-transport","atrial-cardiac-muscle-tissue-morphogenesis","cellular-response-to-interferon-gamma","chiasma-assembly","ion-homeostasis","lymphocyte-chemotaxis","ventricular-cardiac-muscle-tissue-morphogenesis"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(21),title("Count"),width(5),decimal(0),newdecimal(0),numbers(19,18,18,16,15,14,13,12,11,11,11,11,11,11,10,10,10,10,10,10,10),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(21),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,19),
+numbers(19,18,18,16,15,14,13,12,11,11,11,11,11,11,10,10,10,10,10,10,10),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(21),Strings(,"ion-transmembrane-transport","mineralocorticoid-biosynthetic-process","sarcomere-organization","cellular-calcium-ion-homeostasis","glucocorticoid-biosynthetic-process","meiotic-cell-cycle","organic-cation-transport","meiotic-gene-conversion","cardiac-muscle-contraction","cellular-ion-homeostasis","nitrogen-utilization","peptide-cross-linking","regulation-of-the-force-of-heart-contraction","water-transport","ammonium-transport","atrial-cardiac-muscle-tissue-morphogenesis","cellular-response-to-interferon-gamma","chiasma-assembly","ion-homeostasis","lymphocyte-chemotaxis","ventricular-cardiac-muscle-tissue-morphogenesis",),,
+Weights(19,18,18,16,15,14,13,12,11,11,
+11,11,11,11,10,10,10,10,10,10,
+10),Layout("Centered"),Locations(,(97.4163310839418,79.1237443215721,411.05044932125,105.30108017445),(212.097114601151,53.9625509565447,600,78.7621322908498),(352.169687788159,105.309153509129,589.40341866538,130.108734843434),(49.708482224393,137.219342967539,341.272532796266,154.688230448307),(35.740471144442,116.415153296324,332.47760000303,137.081471074911),(341.377596223206,130.578087789091,477.12540935501,149.866651049106),(221.42865000192,154.828129788824,398.5090986909,172.738938530267),(14.4911513380731,154.961113917004,180.133637986074,171.494168139874),(152.235496362829,173.069858714899,317.228098803956,185.079718857928),(145.534628209637,41.8137080080211,294.800032844417,53.8235681510494),(401.208951281251,150.094104881951,518.448062201289,165.249404586249),(82.9056519078367,63.6807330414631,211.868673919878,78.8360327457607),(0.270894498887742,185.255930225626,269.634900563951,200.411229929924),(399.842395737949,166.195287197593,496.2072259332,180.206790697793),(321.400679904906,180.368549942417,440.719420286941,194.146095128142),(5.6843418860808e-14,27.8675041867638,241.237017591564,41.6450493724889),(138.824997988931,14.0850065031049,355.10646203654,27.86255168883),(452.665399163047,91.3110206221306,553.787381752615,105.088565807856),(257.67050267806,105.405901895765,348.914245323145,116.323956571246),(11.7723624419355,49.8080627104598,143.048972230448,63.5856078961848),(26.9414566669835,-1.4210854715202e-14,299.112962505741,13.7775451857251),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 21"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("21")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(18),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(261),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(261),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(178),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.681992337164751),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(18),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(18),title("Term"),flags(48),
+ strings("activation-of-phospholipase-c-activity","amino-acid-betaine-metabolic-process","l-methionine-salvage","keratinization","negative-regulation-of-lipid-metabolic-process","chylomicron-remnant-clearance","positive-regulation-of-type-2-immune-response","s-adenosylmethionine-metabolic-process","tyrosine-catabolic-process","aromatic-amino-acid-family-metabolic-process","methionine-biosynthetic-process","sodium-dependent-phosphate-transport","triglyceride-homeostasis","l-phenylalanine-catabolic-process","negative-regulation-of-interleukin-17-production","positive-regulation-of-glycolytic-process","sodium-ion-transmembrane-transport","sulfur-amino-acid-metabolic-process"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(18),title("Count"),width(5),decimal(0),newdecimal(0),numbers(14,13,13,11,11,10,10,10,10,9,9,9,9,8,8,8,8,8),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(18),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,14),
+numbers(14,13,13,11,11,10,10,10,10,9,9,9,9,8,8,8,8,8),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(18),Strings(,"activation-of-phospholipase-c-activity","amino-acid-betaine-metabolic-process","l-methionine-salvage","keratinization","negative-regulation-of-lipid-metabolic-process","chylomicron-remnant-clearance","positive-regulation-of-type-2-immune-response","s-adenosylmethionine-metabolic-process","tyrosine-catabolic-process","aromatic-amino-acid-family-metabolic-process","methionine-biosynthetic-process","sodium-dependent-phosphate-transport","triglyceride-homeostasis","l-phenylalanine-catabolic-process","negative-regulation-of-interleukin-17-production","positive-regulation-of-glycolytic-process","sodium-ion-transmembrane-transport","sulfur-amino-acid-metabolic-process",),,
+Weights(14,13,13,11,11,10,10,10,10,9,
+9,9,9,8,8,8,8,8),Layout("Centered"),Locations(,(88.5682637186633,51.4063466470102,439.007122432832,74.4215381115095),(241.483693444182,30.0179743907524,573.746134101482,51.3892236077875),(376.685872607596,74.5657983169517,558.139875393742,95.9370475339867),(163.164440284784,110.425251998054,261.769957354385,124.755465551422),(33.5672519626256,92.2741247104701,374.080421635501,110.357489432577),(273.21561551751,13.3731764648012,483.205974297375,29.8125989394436),(160.770546816208,124.849820367778,477.772240572519,141.289242842421),(-5.6843418860808e-14,75.7694059534334,272.02591528795,92.2088284280757),(162.684723195691,141.674401998168,336.384281418328,158.11382447281),(118.945135777516,158.365826617176,397.267660051036,173.161306844354),(341.725127426647,141.635837401888,536.57881041854,156.431317629066),(30.5394578514684,14.2660753096861,271.7337015549,29.0615555368642),(86.060139818943,173.200669189513,232.06082206072,187.996149416691),(338.800185494939,110.394209067756,515.973734882028,123.54574704747),(236.794763300069,173.373820616279,496.351531729894,186.525358595993),(26.9059928596992,37.7291183825841,240.556449473542,50.880656362298),(165.943648448582,0,367.186993760808,13.1515379797139),(405.208352564615,96.0457229100938,600,109.197260889808),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),))))))))))),
+OutlineBox(
+open(1),title("Text Explorer for 22"),helpKey("TextPlatform"),rerun(Text Explorer(Text Columns(:Name("22")), Add Stop Words({"abnormal", "absent", "activation", "cell", "decreased", "development", "feel", "increased", "inner", "level", "like", "long", "mass", "morphology", "na", "negative", "number", "positive", "process", "regulation", "response", "short", "use"}), Show Word Cloud(1), Layout("Centered"), Tokenizing("Basic Words"), Language("English"))),sub(
+BorderBox(top(10),left(5),bottom(10),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+TableBox(sub(
+NumberColBox(titleWrap(true),n(1),title("Number of Terms"),width(7),decimal(0),newdecimal(0),numbers(18),),
+NumberColBox(titleWrap(true),n(1),title("Number of Cases"),width(7),decimal(0),newdecimal(0),numbers(261),),
+NumberColBox(titleWrap(true),n(1),title("Total Tokens"),width(7),decimal(0),newdecimal(0),numbers(261),),
+NumberColBox(titleWrap(true),n(1),title("Tokens per Case"),width(7),decimal(99),newdecimal(-1),numbers(1),),
+NumberColBox(titleWrap(true),n(1),title("Number of Non-empty Cases"),width(7),decimal(0),newdecimal(0),numbers(204),),
+NumberColBox(titleWrap(true),n(1),title("Portion Non-empty per Case"),width(7),decimal(4),newdecimal(4),numbers(0.781609195402299),))))),
+OutlineBox(
+open(1),title("Term and Phrase Lists"),sub(
+ListBox(horizontal,near,sub(
+BorderBox(top(8),left(2),bottom(8),right(12),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(18),markers(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),ColorByRowStates,sub(
+StringColBox(n(18),title("Term"),flags(48),
+ strings("neurotransmitter-transport","cerebellar-purkinje-cell-differentiation","rhodopsin-mediated-signaling-pathway","spinal-cord-association-neuron-differentiation","cell-cell-signaling","memory","nervous-system-development","neuropeptide-signaling-pathway","c-terminal-protein-deglutamylation","gamma-aminobutyric-acid-transport","ion-transport","flagellated-sperm-motility","interferon-gamma-production","negative-regulation-of-urine-volume","neuron-development","neurotransmitter-secretion","response-to-sucrose","chemical-synaptic-transmission"),titleWrap(true),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+NumberColBox(titleWrap(true),n(18),title("Count"),width(5),decimal(0),newdecimal(0),numbers(15,13,13,13,12,12,12,12,11,11,11,10,10,10,10,10,10,9),cellColors(2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647,2147483647),),
+PlotColBox(n(18),title("~Count Bar"),width(108),cumLine(false),center(false),dot(false),marks(false),barcolor(2147483647),barSelColor(2147483647),scale(0,15),
+numbers(15,13,13,13,12,12,12,12,11,11,11,10,10,10,10,10,10,9),titleWrap(true),))))))),
+BorderBox(top(8),left(2),bottom(8),right(5),sides(0),options(0),xmin(0),ymin(0),sub(
+ListBox(vertical,near,sub(
+TableBox(n markers(0),markers(),ColorByRowStates,sub(
+StringColBox(n(0),title("Phrase"),flags(48),titleWrap(true),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("Count"),width(5),decimal(0),newdecimal(0),numbers(),cellColors(),),
+NumberColBox(titleWrap(true),n(0),title("N"),width(3),decimal(0),newdecimal(0),numbers(),cellColors(),))))))))))),
+OutlineBox(
+open(1),title("Word Cloud"),sub(
+ScaleBox(id(1),length(-1),baselength(-1),nmodels(1),model(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),nmodels12(1),model12(id(1),n(1),name(""),levels(""),types(16),properties(properties(),),,),sub(
+ListBox(horizontal,near,sub(
+WordCloudBox(N(18),Strings(,"neurotransmitter-transport","cerebellar-purkinje-cell-differentiation","rhodopsin-mediated-signaling-pathway","spinal-cord-association-neuron-differentiation","cell-cell-signaling","memory","nervous-system-development","neuropeptide-signaling-pathway","c-terminal-protein-deglutamylation","gamma-aminobutyric-acid-transport","ion-transport","flagellated-sperm-motility","interferon-gamma-production","negative-regulation-of-urine-volume","neuron-development","neurotransmitter-secretion","response-to-sucrose","chemical-synaptic-transmission",),,
+Weights(15,13,13,13,12,12,12,12,11,11,
+11,10,10,10,10,10,10,9),Layout("Centered"),Locations(,(125.816319970895,64.09855569441,363.12311423151,86.0867726451314),(240.543747411726,44.8698231920345,531.783904004299,63.9262778826597),(296.534947945516,86.2229575630007,600,105.279412253626),(16.452449628996,113.337497792723,369.176639280001,132.393952483348),(122.721690664129,95.6486486175897,246.519500816869,113.239222178167),(364.384438277063,64.9810138361059,424.457906474506,78.9207136388274),(196.855468638138,132.412694298922,406.946658522012,150.003267859499),(0,46.4036638728813,231.332637202306,63.9942374334584),(116.102592185858,150.147212242038,345.194920491298,166.271904672567),(98.7632422650342,28.6854688788524,335.157318086186,44.8101613093814),(369.913351899165,105.402734477785,456.317364168415,121.527426908314),(101.494249769242,13.8467120758804,255.82664044223,28.5055233763613),(18.5419734534917,132.805974412298,195.830615785723,147.464785712778),(293.024180020394,166.714426495525,509.587373384102,181.373237796005),(284.14288497705,181.546673124612,409.434234394368,196.205484425093),(71.7333930239606,166.844554868533,229.108178495161,178.4609713708),(182.338613979403,-1.4210854715202e-14,302.651499181463,13.5524859193125),(424.639699500875,69.4342381416448,589.675788236666,82.6271683120776),),,
+Colors(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0),
+RowStates(rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),
+rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0),rs(0,Dot,0)),Font(),Background Color(2),),
+ListBox(horizontal,near,sub(
+SpacerBox(size(5,5),minSize(5,5),maxSize(5,5),BaseSize(5,5),fillColor(2147483647),),
+LegendBox(size(40,43),name("Color"),Flags(2),vertical(true),title vertical(true),legendid(1),N Legends(1),Legend item(type(16),width(20),properties(),),Legend Items 12(N Legends(1),Legend item(type(16),width(20),properties(),),),)))))))))))))
+/* preview image PNG (v=1,x=300,y=300,b=14912,c=96,d=126,e=42,f=92,g=59,h=34,i=39,j=47,k=44,m=498F7D1FCAAF70DD6994C30106D459BB)
+=v}uA%:{<d&52G3ALL(Os:jVgXnTQp!!!84CXN+n!!!$m=wLI4kK=3<!!-=)<#fB$!!$Abz!YXr!!!67>>vs>!!&+I!!)vNhz_)n!0h%N>g$o%Mb<{{?yIb_XK%A3($H.k:&$Nlx[elIh^NN{EMT{X%bohD(4c1[#xWo=<.0HfM3%VRwOl=8MKy71gf2{WvBY(<1De]F[:+$@SM?91]^3HLnzPb?S}7aeG=qmU(U)hABRP{mBCz:@OneNDuMn|%v]dZ@j8uFD!!$q!Wsa]f:WIlE!=#|e5w:t69!2PO6i.?Tr=zPo)>j>$AtY=wm.:Gc
+6XblsL6Qm:wJ2w!SwL<5?A[4ZjT=<E_9DimtQbw%zO7D_DEj@HpPaDUto.s?<_{]F^j}esc9YSgueL6?ue9&_.qN_0.pciE.qUNS.q0.LY}lH.Y|fQuY}X8(f>E<Ewk.(pDsFlpiRsp9puh#M7ric4zLd%I6i.AC{.y]t=e+)Vc$Ow?757Hx[pgC.X-us)n8[A@jW7##<>U}j-?i]V6XQ90j[fj%9!$Rfe5si@<Mp9o_vQG4U7@nVpmLbAe1bAW(.q{%xS.)rU^C>D8D[}tO#|js6KwA7fC?lFBs7WVL_ZAIvMxrIEE<[Jt$z}_A{mku
+Ds:ZbH%V9<ik3l!!%GD:]ye7uF6(M:-#F[UoEqj-DN}8k_62joX_CI)t}z5yGZUA{6$+hKAVA^ImMLRDjZsY()2>><Wbu)}:2B&Mx$Ok:u=a7BzP)d5l-^S))}&{T5+}ytJxXribA]9_J85X(9PRNSu?SG&5<j)nj1WV1B6CSKziv{XG8JWyk}vi%$)6+Hj_HR2X8<@}=S<xW6tFkq5(+riM&P0)iW-bU8w%EAdU4l-yQp7VOH_49GL=<EeeU+n-!)D:51_VUgFw(w6$h:+4MC3<kDS6foZ)k5uiYsY_O7qDDwc]@LnIvvmVwz{aBzn6
+D5_.o<QZmqv-Myr9%e3(cI@U[Xx2SRBCi+8j]+=Oq}ZBd(.urm<UChkgQoF5I+7y4Lm4T^TeEU&<o)l.6#]pPBN6&5X0pCL)+gbEkelU.D=}3Sdhab?(3Od:L3?LyqPymmlvX2bHE4S3fJy@DClkbx$!Z6B9#qjRh6E)ON2Fjp#%-%V942<)bL8vQK9xO<J@z|Bj.aWELp1hA%K7cQ+!r7MBjCIFcsTw8!P&h$!<hb7s@}:F][qf1]ye8ZW{TGx2?UURLfaUKK8p2i6c$%-BLnSW_[P}3Fvmz5W^(|BaCzRl@G4@<yOFZUZIzAwwe(e:
+qSRciry7HCYGO8O!G^X=5cyfz3_2>|W>ahVdFtlsX|RL_q}_wkEhQst7zj0{uAFJ5J>S<QPHnpX1rnG2s@r+|&2G49X6aPs$daldR6qwQg}q$XQ^eF}Ql=u)#7s@&8PCV]8PGg)K{)DgQuByvG(PO5$a(tQzecR5qkYk0tE.KUyQ9=@s(sJ6u^HJszkR<]vZH2Zt$nMYy4v#8wt_r@e!aW)EhxKEn&3#CY)HO<yaPh%nd#wpY#$uJ?:GB__-Jwvs8uT0zg?YTW(!??7nnyY8$g8{j9E)8!#G!l#<5Fe!!!9K-?hRc5l%Mz!!%_kYGB)v
+(kgv9!!cQNjXF$H0?7Hb!1!}Efz6i)!!!&q$)5sb%yRE}!!!vdGs#Q|e#3cgDtDtBCw%zg8?88SzA57hploHiOs1bWEmD!N3uQYYoc9g8cHl3=VOeQ@:Enl.>[is^c]oVQy4$KxR($WggIz]Eg5n[UYun%Pl#m32&u4q=lw7>mk%j+.#%-!@N2FCof2o2T8?20tRd)ur#qRR)w5URDrE7uuyj?oL!=$%T8U#ws%]UABlqqN<yZ>Bnz7#}H!XmrE8^{a+h|sjmf8imLt<JJfkn[>?D!1u!EhJ{Ka.2Zk@X=zkl5OssBO-r=eI1TJ<g]tt
+phuCqkSDgmx8Yr$tbo#Hkre($EE=yq$E#b07(b:<(fH#tw4+5+qg42FB73trxdrx9jXRR+0{@>7V]HM9Cu&b6Ht|%93tc(]yY-uqrx)?)KB&c%ChPh7h3kGldLWlcU#Atw4pO{$cKvro+=+>jZA)zdvY<tL^pvn9Ci(ZryCW1PkSEr.?AusBZ5PiCjDj-wVsLf2H4>7uJ&pHqxKUf@(8nn>r.R3tzk>M+57w^hNL!OhbB.CWs9S6<w?wjU:N+j2y?<wmu@vMx03[H(ojOw2F><HDr^Aiv=mw7ywtQlLknm|>dI68MHYMXRf4HFF%Lv:#
+Dm-rTn&{LM!x.bBdVrGMroT>HcD%PW.@@AF&u4{fTFxyks.t?esBqTsQxV^RUujBiVba^q+SJ^vt%EeX2nL=xxUH7eEK(LF@yuVEYL9?LyvF12yNcHAz1sHz82y&sAeFheO[YjlcKhNGoL_}Fr#Kqb:0@lmwb3PL?9njcYn%2yI9[k2Z&65YR}fdmy8r3UOj&:=mT7z:]XvG[M&$oeU!#(6VwV=F]{lillm!M3Y+1(IOwOJcph>zbzKs&=s27gzyy_cBOWKMWE!Ck?5T]Cg[4%:U1e3[sB}B2_u5YB]0u2A[lGDDgr|Ve@+4S^<aJh4H
+YIon8{$P|xJC|{3pDV0[w?pzfmM$tqtPyewu.s9s(@0GOVz#zh+{G4F&<?vNKLzNkcky?_rj[D1k0IJRdH01Mm96dKZEVeb1IcxXXBF[Q)F}]9n9IuLp5kjg0>U7vY+Yo>pnvceL&I!HJ9cj]L32zVbida$x]0EasTCkRkBydpk6-aU88kIHA0A64u@CJ74q(3ij&b{7n1:[=dywK5IdiJ[o123-<^J(tLVF7t+z@XdXYSJFMUqZGgFVmYtL<^pIS|GYph?$V8W}]QjrLND!%GVAw4GZlP=oW#J#L2WYiup>^W2!<Yr4qe+J%kfju>[C
+UXx6Xu:<th#%-43.kpS)u}c22@1yA{FPx!{g4ZP$9UGsX8Cm99:6BMr:]vl^0u6UikS=}2mJtW]rzgx]jYRo!<l:ufr1qtNwHmIxg}q$Z<<@6U9XdI)?pud4kC2aPJShE:ePPeyx<|[JetuP(f35+a>#b<_Yw@:adqMGBvmXfm$e1De4dFa3pXS^+q6SL7TKgJEUm=mf-?ik&k$MEa+lc7us>l=17-24M&|4qDWIx93?)={3B>6Tpn#:sUL[l)%itlbPm]J|T5xf}@1[v=]Z@=rJYGrcfG^E=HsH4{<xMvu05^!F7sR@cBQK?u<Ge0c7
+MZDqOoabJwM(x}3jnc%h9U.PIDsely]:A4-wr%IQLXGmYYr(vQI#$g(KSUkXh&?nNG0vmZMn:Xbu>Km8?gqKh<mvvlkDL)l6@+|UTcp<:TjK@F9uV6)94F&5zZg3kwr3<drag)&p+jy0hAFq)+GSOj1B-&.MAN.V{$=e+C=u%qt:4}EMQ=tc3x-j##SkodoM}shVds=LxC^x0YGZo-KWo]qRx?P)epPujBj#2d(>m&|vTWpyf4$a_BFu@oYdZB0X[51CU)5YifPI<Um6D_wDj4|vuio)1r)fK_M0qQ}j1XOvby6-B8^42|NR!ni0k^cq
+uIFRNbfb+^j@JpC5!qrX?FKRrz>0_H+NRF}s]a}qkC5=KjcKX:.(WO:hanG+j!qG%Cjsr7rw_a8VVeKsuOjGbhrMy]_oAz5[Nj]U8:}({ic+tupo&V5QpgK_zG%8ThjQllH+ud6e&U:Slx2e2r6byvuEZhGw5>[{[$zH{rX3SNdbTFBKar}<9hdpoyfnk6VmJRzRoZjGqz<?ZhD|Y4hEs][d%SUyo!+$Ud(gx]EXRqkXAT#CSki1P7JQJzhT@=K.+Q(U2Su-8.>|-ygh[]VZ4fvdWE4VIaRh^Nak5eRbRb6!aTG3DIXcDDA?v&V6L?n]
+VO_05C%1basAP-2Yj^RX0|V}>+MC@xo!!u[8yRr+z]h$mLrD%rbW_IaDd_g>D3A_?rvzc>ShaeeIHtZ$kpiooC!(cRk5e43tYmS8jG$}yV(%4ivT9?&xRKBwKTr8BpQ+OB1M94%?S]95im2mxyg1vH((sg0P&xIE[!6difXKPz6&Sl+Wx9h&Wf>dPEp?pMBAzt6EerzQfo5Y7=UG40lo46TDJs+KFXHT5@[j!WK9w@3zUR89%nr&23.&6:w7{Z[58=3Tk61JYg-uy34j.aXmVk>cVeC:z<ffv$IR6l.maybCo|)Y+?IfUore!msctQ.|
+]-FX}=sl).EK6]Zi.yqPz?1|[xF&[h?iGJsy[eMRrE!|6ESq$EnpybECxJRHv!rD+_pS[S-?lU2fmHw!w6{#prE7uus<9[Ehta2f!q<|Y9Wc%2peg2>Y>t]yrzgs[wK309<<@6P9XdI)#dy(BhkJcX5XBjq!!cR#PI4tO!!!.e&2FiD+u#f|!!#oHkB|.NS$cS[z>}%YalB(=@rp}5oQdD8Pi9E]GM6ekQH@WDX>|Rxt20}_W.@)Nz<=.8aTEMcZAs1<yWo&:<k}BLK{Y2:Q$W$RiuJ[7dF6AwEP6&|#<8CG]w7zSs90^0aa!qw(%}=X
+>(r5V$b(t:]{:z9!S&0vpl#JWItEty99YCyk%2Uq)0ilpsO@!AOsbF@kC5U|K{KEa05O6.A5Q:7ke{&59<tlVzT$_CigqWj={trEkC$vO03xj>vuKEbhYYuP3+8CV[}T=SCOCWb4N8zq4@G5&WQnqO!ua6lrx8_(5X:DdXkB9AHA]2l6rX_&5dYO=D(KJky62%#$)6$jbfBsHf_cC@=F)NryFOC!]?HDW-uGHAvuKEbhPz4THt>nTLv#p3f9+7MNg.F=NT&S|?KXA0b0>+#W7k%AfWfQsncXAL+_JrJ6NK3uYGAonDoLg|!!#oKkB}Sx
+S$cS[!!D<9rx!+7U>w=p!(Q}bE|-G%!!!$K#%+xp#{i5Q!!!Mq6XQ$FFX)vv!!+AV8P!#m1WOnN!#F}wWt+vj:WIlE!=#|eP]iF1!!!.e&2FiD+u#f|G.:WcQNbGzOqp9aKH@H(LbV8>O<.]_L$xe-MB6eLOti0nMm6WmLRv9@O+MR.NLoK_E!C?%aRkkcISX!ak5#A1OC:s#Iq!zw@!Rye]=!gCmcT$zmZd_emM#C)m37m@mOXMWmAu0xm^=k7m:&N[mVK.tmHgl<[U@z_Yxz|z+W<>}xGSg?w-T&SCr9p+$_tZ6p{WV#^RQTx1E2Xh
+Doner-ZnFM61bIVn>]A_!.BVkT?6WEK{pORrx2dN%S#imi0{yFl3|xYalLb(OHS29FQphGu=AC^OMGtzA2V^vsAFMcn&cFKN3B^v6}sm=5]r<cF!O8=K=$EKjb6j1w?xbF?C<|0@[Z.8lKA<l#%-+nJ@5bOO#mhrYHwf?R+Rwe4I[-bD&%zprFk}>hm6Ph0AzHXbfY}^?{7cUy1PD-gO2nh^NQ)9e82a9G)APU?26qN5D#kx[$sOtc.z>=oc562zqZgfI!BTlm7s)Oec:MR>_4Ca9aHOYf-oWt9Z>9wj9{+vOA{ob:1yg4[OG^X(3Od=
+o!+m))t1mBiR}v_den+yFQ}isFsJ&1m=8CyEe$LHShOK6ITJU]oSdc$u--jix>6|dZPcu3-q]<lCNAW%8PJ3w9_=tOI]SkQI@p+tA$FlDWW$9<sQaYtm.kAq^dH?{.9v|UA7s%9Je-#h5PR<]]PXmsK[Wqoj7^$LxFaK6URC=ssA.G?y+u%GZdF%$$)63!s)HUXVwdeONa#$?NPD^kN%zkDKzot?UpgI3ng+JIX.XmBGqrEZIuTA^FIO2It%>|upgJ0UI_6fK^&rE6X}_{B.W7i>QsYpS1Q)cKTTXCgRFJVypQ2j8s1rs_1<(K5pj[f<
+{$Qn.bV:&cHzXM#7DDoSu%}Gi:-V)(m@s.BYL$Ho6F!vhd%mL!ry__^[tW(yIxSE6Txjm?z?)lx-2tBYopYErWwGw^fVPK_H:KDFu^7dsY6=0[><b&UqWjxH-hj33=aobK0AzHN<7p58_+M_D9<]N5NZG4t-{W}w0)6]c_T0tQx7gH=Wp4o#a3Ntma1MBXaK%nPqg>2[p+>f<6hR)|!=$#TYH{o{FnG9ufPkv{()wS2g=&_(uMIFzyn_xOaOzt.k%=^z]VjzZ5%W?9M12fAr<j21n|$H+Wyq]L1!>0N2xng_!=$#y(a2b1kC+%MYGC_x
+F?}>9g!yKSE@$<wvMxrI1BA2a0&T7e8rP[98mbR98oGwV8rmi88nT8H8p:]fe#P$td|dgDdz}B#e!J2bD1y=Gn7b.fIQLtNs8Eg|OA:=zIq.O0k2B7)cI.J@d%znHMO}de2P23]gz@0jd^1Uq&BrZON&z+<&2GiLzAbn|!!4]0K{!%Z>1z]w!$h}p5PUcSP1nXf!S%{J!|sY<!!!9K-?hRc5l%Mz!!%_k^5sSX$[mx}Wl[U6_s7!S]|3B%x(5AmfJ%LxYdL!!t]%j9y-j3uVQflE:1<E@oy]D7]wiN@NN92_3NgkQm(oPpg9M(T&=6a{
+KB0?u<9wi+!=$!f(a2c^kC&4QF$>s)w%w1:CHfC?ChP2K$w=^XR$o[<21euMrYF.lj(6db-fqomMjMIYq^:XlQNqR4!S&#L8Sy}!SkU-Z4FYcH+Jt<v_#_RzDm5?l^M20.lixYKQXfZ=H4%GgHAK&nXjCUg%I6xBCc%1|46hHDO>5uJlydlUs4f|JNa+|0m51&L0AzHWL3+2(WH(0bhw[gFnS@UiI&ofSQ:&zkry]]HGC!q?FtNKuryn{XQRL6M21euM$SXyMvwUGnW8[K#6XWmAry4=v6udif+{L2(I1+r_S9so7Rf&w0=^]U&j[QFw
+WvHR!0nOfh4o-&[^)^A20AzHNH4RDZsV|Yg<>V5mkE@G5YGH6LF6DU>g4ZP$&=6a{KB0?u<9wi+!=$!fkCJkU<OUEoa0<5gvrb!ruKqN}0I@JWjZj(cia#dX)J=uiRi]Q&8uSB:ExF}0gOaVN6E(D--lSSEl$F.5#%-$cJAtscro(H:J.=E+L7hH<knOo-jrIgGKu%Cif@Pn%Zuf3Jzl.Nso|>ePKoS>o4u1)&Wat]tWTVX!1m#52$odoskon$iY&uEF@1{a7I]OMUV@&O8_agFhq^:XlH4|l7&:ML&-|L>UYL+_&5@<6[41WWcVn!lF
+-kLbrAR9{@cU8(>bQl|>]K?@&kLqt?e6Lkgcci:F:AC3+Z7wB!s-U[Y>&LcEMzw%CQeFMYk}sRd$)6-S9%%$rRQYV3ksI6Z7WHa&5ZT(@fA&=@hr8jcTeTis5DpQO=raW@FIf7ozIp9#t$^Hoy]1ZZcd!.jM.w@|@2:^t9naG2kC(^#EIDl:0MYNolz>d)8&vM&m!p$7M(4c>ISwV4o#Y6bW3+m4G#2?fork<R^8gu9(f}gJF<[0vXAq:Vk2IH<O5AC!Tg!VGkD!k2n[W{EoR]JzG!xmIHv)J>8dT)no7d3y^@Fskc|xu)X$@#f9sMVy
+t1O?m3cp#iKB0?uoC|]ZTUkOv$.})ztMA@:oL@4BH9ok!y0NhjOUc>?.w6d@n%pm>%47?x.?E?i_[|Slne)Vvf8jt&GRRsdKB0?u^<Yy6=gw^9#]?Q<K{u.zrxW|R]o@}[XWxR0K=+7uq^:XlDalG8taV|2Qd:lcQe4cl#qRR)7%kbug}q$W$a(sC#%-$t=^YiU8P?<yK{?PinGJMyrycelXEvNvbpvGpryCN?WzqL45U2s!H4%#GYGT$|i].Y<S?!t7L!tn@6sRk)t>jdVg-+a)K}Y<Fr4P.qle@@U_rkHfG_bh%ZhD]zB]1]WqY{|A
+In-GGKB0?u_WT|gltx$04Ii@KKzkPfkO[&m?zsJR2)_qo5V9^Yb]-O206k#{(RJGQ0nw[{O81HOuNdR-p&yH9b}jV48@A&wgWD_@)(qyf[Fs((B7!%pQyZe3s<.c!]m=lAJX{.6YKB_kFysDheuj67+^q-cwvMP]h6E2|Oj-wy4sfD?W5qroBAFc#$]CHr?>Klv%mHGCu?OeKlRy+Qff]M<L2xq.Sl7pGBooFpRa=1!p$0?9Hf0SUWOIp4EJ#2Xgv+gTBSsK6D_6.9f7wc?eL3nvqM{W4YvhPyY[(zJ:7Rdh:4K=qa4]zC.22l_r<KMt
+p1_Gd$4vSZnw4LeWC_x7Dq%Mp6:VtOKW<9N<6[gQ-?iYbJTWUwAL]OBNrxsNGu([Wp_(.WWHzGwmM%gNm_ak:C>XE#z}{3{XI9YN:tSu1G(i4n_nvQADlo4Nj9Va%Zgb^R&2G@Cz^PW!9PraVXfM0mIn#H:KB0?uH41xuYGN6|8P2:s7%pQAg}q$W-?xNBryNn!jYRo!(IgrF+J&$Am51fX(3Od9BUxBqme:LG>R.G4ESrB#H@?R&KB0?uM(vUp-K${>c1!]9d^J.dZ|Pdo&2GFEdejr%XV[C7!=$#QkCJkU2e0=nUZvzgN3!u%2[.mT
+TcD0.OcO{b)vqQHNMD=<T=_+mH4M+]iJ#H|x3z.mw{WSZ-P1=HDq|4ujuL?$m]HJwcgLJ{Of9pvtXo!.W6z=ZdbfXSK{]y@<yhCE@J]:{=O1Q6N(8ML9hvphIql>hzmolLs#BcxbmQo=r_hq{?8?Sd5y!B^?Crx.$&[o)Gqg!Wyka[jjibtOAmzo:tj||r6^&kI_5%NEfdTW^RNLp)&2GB596R[oEKzI$561D@MFpangqGvsbkYI_LgI$Phw7_oU!cw[w:p-AcayILKUH0Pnb!r8jrBGA4U0$DWaM[XDF8tIDEUehwmK3(dZekXNWuod
+rqSUc+)eU[WUrYnG8&uskC$.3f&+DT9kNpY5z-{=NkQK-SmeuLS40Wd]s}L%5(HWm&u(k2Ely0?D_6.9O28B<Yd.yLsRGo|aOJRHVsuC!KvHW+#ld>PJYEVCDwjqMeT^>.LEVb_b{@w$Jgnn>AzN}_@YQ{[<EwzFhPU@}]H0Z2YGT3)Y{(+<=NvYPT[5s1M(U1!n#+ZJynOp%-_<{<-llX9VU8gejFBOho0@CQU$EmJz<9W!tb-m-u?#^x9<}OQhA:u^?1(vEmiZ60I1<u|(3Od=YKBG46%6ZeL}x2n>y!-TAucY|KB0?us@zRIYwa4R
+!=$#65yE+#K{THFkC(Z&YGH6LF6DU>g4ZP$&=6a{KB0?u<9wi+!=$!fL(PKMLW@2m?FPP]I&PlT^{{QGo_oxYvid[{^=&NAIVBywH4$+4z<7c%iLAonzdd<0s@|MrIw9kHK{Zs9rxW|RkC)6-m)AGk0AzHMdeo5o]tTQzBPHb|O&Yz@st0bY@Vvo>mYPfE-ic>}ONT]LJu}$<XAD?hEa59wneSjRDiK)0_GtI-Xyhd__GvexzH7@^nzC.BMSppRjzsD[sA|JvI[NE4[c)xYn5k+MbSdxIyOibpJVs$7Y(VQF!=$!XkCq(Y4tvg#8Lo&z
+4=!sV]lnOrm=pJpo^]H}EYs82aFEZaN_tEiEVj+c^qQOBlB_pv-ASeny&sx$<J(!|_-4^^m_x}p_pX[P)JN(49.gucug9-wui!rMJitl|4q$uQd-OLfusk8SsKt0{p>NfH(Q4<.WUrYnL+cYKm^g^Utl-j%EXmtFkc4+hhWjM26{n2n]Q=c3r$5jf7A8k0d!VQC@]3S#vd45bJ=b}D_PeX6tm=yWkC1pIF@}:18wsyay!Y(TNBnATt-yaZR{C|id@G8MfB[au1:>c(Dv(d6CKqbI<$B%?4w6A@i6<H=%%.^1oZ-AHGTRz<oP0(n<w||W
+N7p<Da7#<5(mAO+k97|U9LKqRLzhN|ry4QJc%SC9pA@<AlAo$|W[iwmlqtkf[$$MQQ$$ymhr)V>>:$5=G)8WDYwy29tck_AJVvLf:6m{zJAY0=Lqsk{q}FkZrmv)NTt3i0YGNR5cbe]Tjl.e}90hIw7W)J>eH7z{I[O}9w|C[:OdI0@NPVr2t?di1t}Gg]pds(6Y}4H$NQedRC=t}KwVQv%Xtw$H:2G][k4wXm)(Vs(l7|%]uz|H]NR@-@gE7h_)(qyf<9wi5$)64%T?6S+K{WRtrxW|R$drx5%e$#3I+WElRf&w0(B1hb$)6(jT?6S+
+K{WRtyLk]Qk?PJu)FwDs$gAsUyM9aU1VrgUwB{?1P!v:O_E?%y2:wqvQdHsZ@y^yn!S&$Ws.v2kl8)U9<pyxAo&d$hu^#qP-?wKYH4$Isd)7F9+TVW{-:H8P(3Od<_WLjwyQn<nB0@<BmU]@fwd4L(o2mN|r[&8up[Dxy^td]TJPjM:<]7)=h|0o<Ml3e1IZiCauR]afE[o{7r>%FCMSiK^3tu:7C<eY%9KqM<d$E6^kNK]k+)razkC&jTFvIaEYZbXO4XU1.S5azemwUZtYKz[Y5I2FD0%93Q[Ao1pC{pr3cPgw7p8<ors%86:J<w.7
+7@aEOsS#cpnf2?B9ciA:H[k?u#%-(#8SOpBu@?oyk{v)3-O(4Fho4hL6RAtz)??pn#4]|qKVx{]dE(nZDro_Xf=nmz2}K>Zx%wQ?YEIDMf}vq7IRdGgIki<>YGQd7i].Y<^-L+w>q!q<pT1OkW|rC-J-W6?VqRTeBI_R)q]5n)]#K1=I}aCV&BUnX.jZ?1Mrh%2$yad>?>KlvTUKuXw(gY{amCtN?l5k_p+Rcqdep#uT2gPaDIDpI7?gynn&jU$zky@xO^?VrhCRU-Nx>aqpWkdfS3v[|Ea#u:+1I3(O:L^Gq^:XlM32kTd!TPzWHzIl
+]GB%fs&5keVhjwWbM8f{la)U.l_(9g%wQYFyOCK[LD2HGT7O_byfUPH][uK50<HyoS#VOkzNzO{aOK%>SvRN)d2VA>SAwUtH[P9z#%-(7:K2}25a)U]5Z--VF+@h#n]txAyQK5:Wz%Qg5U2s!c}}X6jEUY)1$Unyq^:XlQNqR4!S&#L1B@G>YGN6|8P2:sgGd+VV7bS9U<dnfda&I:z2yBP_Yz4PQNIo-:OXgB0>%YwFnM^_L:-Pjq^:XlJ!#gWTBEUVy0k<(hpz><7:AnlSY{S|Ge0c71>vgrAric-jd(^KvQwFz!m8:Y[0}OJYJ3]U
+x#3{!!:87$]x#jhB[0rIfbg?|]{Rx#f$zI!wSs]i#LtzZo_pIi6PZucE|vxbr|e4&k#$t.C7Q<fPy4s>4#V-D^]ef_.H}A|9gy##aox}&OB0&geeYlrYaKK^gB]k-f$yU:9UKRbp|<PT.-2trx&Cestkw&#TuAxv<cP2Jw@+vsfK?LDrK9}6kK1uJMUMC&d(]P.xV7gfx@_=TkaF=RC9QnLiS?[!y?KQ18<^W.nvE43W[<JPcES(im+0lt3+7u4Z6yjHE[_WMI^?VID74>Fesz6]W$Yl8uWVx@s&8]%MsusYRJ]t69ip8B{5qb2PJ+Xl
+Z1&7#?sE<ejqW7n8YduYA{]>|54eiQ3z.A<pOuj{tL1d]w2KyBf^>@8RrPw[nn&^[5F#LD.yqc?ElBtAmYruXa3p.E993ILsq}{Ng@8o?EtF5)s@{x-+0%qA+Z+OeqM|vSF&mFErWTr8_P%JSZjyF9hUi8Fm#D-RoQX5th99Zq0$5p!k>P6:-QY$ofC[>c)4mbKcVyVZYHsMRxwEZ??ZTNZi5j!HbfS8v6(P-$rolEdj!1fnH+)-0YnK$gvrdXkAu3J<TW:[z_o|l4tI<8#_7s6peyC%:S}}+u_WIxh[D]ifrBJb4$l^)iv(TY?rak>1
+n%^&E=pF%l77ubyCr2wCM&Nt2mwS^.]}uK[AsOxO&@+=<K]<9sr9U9ts3>j9dAu_IYIO2vqz.)Nh|bX:Kf7LP4btbXZa6cPN%8JbJAdWjaaf<d1[6KBWKg8@yPz&xD37wLxQSjsH33:|ppeqdB(N?s3^dtba@4w$n?)Sy7[lT6hj(Qus1OwwqrRpOHHb@5b:$IpRK55v[J)lv>YTVDmyW6@KVx_g]:h]geJvN&Gg9}%5[OSZ=(a^QO)G>$YmnNdQNQ]mOC2|=FV$n4DSClrb9[bUPTGgYyn>3ytaMY1DG5wZA15LZkyHd[@X_hq+|]d:
+fIJyt+_frUOZVlI@Q06O8QWOlm}+::2iso]kfvJVf:PPCC33}<xZJ4GE$JtpfZlWNcqi2?R@GBj&^8=ZTsJ_rLy9qYS4hUF2pM]y=FdFGN1p{Eqe1JYKB(|:]I3vSO%2MGws}4Tw?hoJ#%-&KYwa+X>IA&@uOi9zt^8CSU$gse:]vl$QV-}J6XRU0H4!X[Wx_e)5U2s!<]zMQD_6.9vZ6.H>0Cc:5obLfg}q$X<>V5l-?i>(6XQlAjZ^wU(SD6JU35x)_5=k)wHF5sv{I.5bbMKti<JvWoBcv_0-e1(z@X7AOyCJgjjM1gzJ6oC8YGkV
+EV2RdG}wOCCMkY^VU@aaytzPg99SHtFARZC>ZCi[w3}wZMkJ8%#L<b!c:yh1HAsR(Ir^LZs!1#(e)Bnc]:HdZvhtiFpX?1@iz%_9tbUkB?a4B[(7UmcP_oar+BGn9WUrYn]Z{F1yT8S]tZTJJ.L}&_G({)c:Aw3q7gTw>2.JAg?7C4Vb+PM7z+|K#vfqvzmtEH$Y>b#ZN^Bi?YGT2z8P2:s5wwp<Se[K)03%NApfsVJdz4Y7rZFQuj[vx4bY!FBeu=v?JQ07)8W}vXDQ]HUyPxMySXS!}e?Zr1[SohRTwr6dGS1{y0#4$NkC+UH<+-eu
+UKcrQv.HoXcFN^6e9O[]?|c[F2on$tLnpr7o0[|%Us)6WkC&#jGAV@0U#HvPX%>q$d@G8M+JM-&+_m?-+J&$Ag^$rjgaX2#Q(Wo%-SHCyq^:XlQNqR4!S&#L1B@G>YGN6|H4>NOpoghq3BQ|)y{|>7r}M}{:)L!!s#531ch6>Y_khO0DfSQaq^:Xl4KbUbO<FTw3L-YsHUm#&fTIUz81GFyxc9]w8PEP7K{?PiGfio_Evy(wjZ|bgUa3iw^.Nu^_Q8-Y=Iwn4VxaAUD%GX=vZ5[+ChueMemPUAw(r)kQ1QEEBL_p{ghyN$TCP%7El]f2
+Gs1y{thY7<xgP7Szmhg48q=5zq0vG?3slVw7[y=%kXx|^?Xfjug+PP-9l:F$s67Y$8yc(pcgGc&mf0)rf_dalFB![=S4hUFPXbwBDixb$s}rq<EYDdEWgSLbhV32ewyL.H1kE!=aRFp<f136srGhWPZgj)j_JVYY3d0Up.X^0+i#wG2IavJNEahZ}ibf1T16s[Zslf7JXyxSN[Xn)>qr8lIzeh3+yx0sC4{l=}>ugPf:]vl$YL:HGqyf^I](LSpCV!^NKmG7d8!Mh-cOXX?>avoet$S<5nRDK&lOl&$L|R4XTrn&:jraMhkajPHruw{$
+kf8GDn+V_0R#K$Ik$|pYN!^Y03x#[X]zqW[AqV3kWVY)Je[+qeK{qB.XY4MFWv=[lI{lW9[Ac=Faq%BLE#S]P@5AbOJZ)L<u!N#.8SCXDXoP-$^?mst#}m8I[(Yay5uve1LfhY+Yd6z-dKy^}s<M7]_wI+(ZJKpW!=$!oYHrkNH?0--98}6!k^UpAEblP|.YGDfc+:x9L)V%1W6)g-FniEHoYr{&jexdb-ean&=)_q)@Y#{_mKyclB|CDfcNe@?QYU!e&^VbJy>$?RlGz6JK{]LBN@{&}5?z_%:k{e}%o7Q>zMUetCQ|ZbnxWImwcrDq
+93cI]Mqlmj+h?N.f[Mb1JZAqWqsR7<YQ1fsLZbH)qwQqJ@Cv1P+&iT7J0w1G)x3)pXhqlWn8ax@iw5hmjJoN?ESu&V6XRo2X8Mu%5)#MVHz)9RXikjMTR=>iP=oWh8Ta}jI<kKwX[&y4aCO=2Cu&Wv6XV]eI.u6Tz$jldzK#C=mBl$qZXT4!?Fqluye0)fH)<$$7OsxCGq2^vvuKEbwxrT.@s_)_Gqt6VY#&^8ILWnhsGV?[Gq(mTsEw6UwxrT.@s_)_Gd92&i.V{D?8L}r3IMW8RCZr2CkEu2ry9voS9h2)=InivDCwNeeHu#OH46Qu
+X.{1wF=yk)?dnew4f?o>S!KHv4)FjI<)@]TTo.MjqeC>mAIS}.AYUhHOK)[r5fnq-Hyt.OV1%&4&]Q3Ccv_&mK}Wqu{+21URe=<J4z.Irm>6}zUT1X^P=oX9H4RD]Y>C0-=I7pUzpNouB2FqCHIZo@_RM3vt>e7Vd12+FQs=v:T()SsJKt<FuP:eRV74&6{-=p9{9(9dj6x>lWCu{}d!II?J!#.srybUu[6J[bU-Glzek[69s9T%[w^vNlw<WVtU4l26AXR-QR2-be[ICdforlK533DOpO24un^Fd-Mzpj(HHl=Mx]8(fHjy4!J&2GA^
+YH7CCaVsSgU7sDqf?@^1zRv!(5IvMRY%1kP0>71wB:3haZ)rAdj5)Z=jNRGy9wQm>BhTh+o(&p^x]+!9f(B>oIRh>[AgUt_pxMQTC:2t-er<&v4x@p$uK9$5A6.7v_QFUPdfyr=y8vs+yI+S:tI%hq1)yM(E<A5cFfDp<V5S[E+AKS%Bkjz{M8E)aKei7lDK2w@fcyE#jwIpBto?)@5y1UwkQQE$+jZ||u2kC3&16Nhzz@s6JwmT#tpb.Fz><$[04v-GtG0u3[dQE8di_zR1OEz&jdA0gC3iIGpri8@um}&GuxH9Gs8KJY_-DehH!.Sf
+kJv]F4}y31f=g}F#%-L]s0bMb50.86w-76(pk(KbtXIzubJ_(i^|(9g_9}ULLko$FfPr6?y30C]v}@3uj@pHE_#zObMeijo.qOd5Lfih^0=L%HL1<l9hFQx?Y$z^4Tk30<b3@pp(S<aNjZ+mK54rx!txdzT2?E%Km}UWJNt6aWnelH7{$99Vxs}s%mE}qm.9Mt)W@I&!lxnDH#DSRQ4^]H(i2PMEI^5_R-]0nVOg8p6k(A:U+#6>Izp#}CBs5:Sdg$oB8pEB3vjp<kq[vSQD}@CzobIZPpp67KJ+gQ4d+U}X9yM^ftoEe8yVTr-^6VO4
++T!S>d1:DSM>wav-?k&47&xm!9aWbxOgYtOm.DWVd}|pvt:Zhz^Tb([D:s40@cFgnM$AU<hyCkOa>0<]5C}>.aV{iiS8ch}6K_8ctX{B<uq5f+CWUD!0(Cw?8E-oVfcM.0EcFO{Ej6J<Cl<{9Y1ShxcW4zVd+lO}8=Z.9F^SBvBhXKTIJlZe79^%ruLN+9i#D)SGTaFQsHn[TQPE^FSxAbS-^m:gmYT99Sa:h8_M=P<JaPRqhLv^8{=DZb09c#[j3rG|oJ{7sCwJ%JOgT|ft743lx<V#X^<]ZcXP_I^th#mMueU2TLwc#uNM>8HYGOKv
+i[zp#uw-NFO=PYRm]9pld$LAFeAq$wx=wBv^6!=qvdqX$m?iESqYzTV9:)B$jlh(g51hnS:ro!TtZXMkyJ|aYsq}I)wu<CN_u@A8Vo{TJP#r|l2hLT6neKbXty]ik.Ir]!g7kFhBm(xWM!7}2M:>{C{!G^Ivtu.He3cQ-z<%3GFfptjVT@r87?ZPQqBN}6s4O:6x^W>P2qSz[hFO$H:TAQ]jVjKEnji<0{1$?2n8RfkAzh>n_m6cOf69wdO>9|$GrVi8TX^5|f!w!O^$yVVCh<U1FVlH:Utka?y<WTNxT|9b07WN2zAH6jx}:H2C9to%
+Tr&l&n@4J8:6TmXwo2iRGRqJ3AXPolxk7eWhMnzKw$vGpB$}Xi?XgNzy?RF>m(yLeO]t?db3&84O2oT1L=yb4YoxT3O4U$[EZLiSb28{M9cmfd_daR{xjHC2thf&f8)1at<ZnVRFP)%S)HWdJ9#XFqye4FZS@g0-<ck-6xaOSsDIX[0e8YOeu0H)a008Q=C79a4L|b+>v@#hnEMM&PvjRHeAth3IJVeG3xFF()vLIf:k2_d]mSqwjm40C]>1^Vlu@|HhEj7f+sUdA<tfkT?jce3N)1XAb5JiqpRQEe)YWQwfyX:wXV+%8QBBU{P_1$u<
+LlbA&Dt+e++A.bDZo&C[yu1$3o]qGuZ:XXstGbY$^h.Z%uK(c8uFcH72on!Jr++zF_G:v8nrvy=^|6!Ep1{?_lym_[xq[%<Ntky-mLDXcuh0Vhab>biL<ha0bB.--Sz&yIuxqdQ6bP:$v-rOpcqFl%il<S}6a|4]ySF:=z5^G1zdw>wgrP><TTV8k4?i!7.?yEog|dffSze#mE<D?MS|R5OeoJ_+mha?^tQlQu>kP5YjHMSvC%V>8BEF7sj>t]hBp]WxkM1j>OAb0#km]<I41<^}ymG_oPxUtLFm?ig:F!EL8o4L3^4sB]_X_p<Yi|^W
+Z7UPstL<QjbM)V1uqC:v??m9k7O^:oL|X@D>)Nd6Z<}ZxT7GRQ6T^fb{4xKE0)-ijzL1H:n1?Tm_:HEG=_wtz@{02mq]f@NwdNf13E9-=fWzG(d^+kD4ZZdHMcSK:7Cu9cz.XSA%VWnIsCQR0BzFuSkB<qQZ{cxJKVSO|Mr7pLGTXTuYGzkmG8!KN?2ROh2mUIX[6GV#(yAOx_42+tM:KMKe?y%rX#TY.9S]W=WE1vaQNt6>Gq1p&9&$UqEtF6#YII9p$rl({&94HZeBco^bfJA2O)wEnP5{&[@82Vhg^xMXe%yVvlYivr5!JwHl-}<m
+hcDRhtqZ>1bfWh5WF9ps<o>Z|Ek2Z$L[jP+I3tP4d7OX4<99WVe28}_<Xs8y)34:<0>?J.w9ekVLhpep_s%s3y#>k+4i?bISha4g[yd(]-?p|9.Dm}bTyxve^sIW!@y|^:Zuws?sFVom5BA:{TuC=tYfokQc<znhMB+H]A$:XT)v??8NFOzMd+{oVr+_Y-y8V5%TZG9%_$uAcElujVyS71WZ08W(G%[34h.7C8ijy6sGNwqkH|oMWF{5qlT)yU:I=<5Q6cPgi5yZd%npJ8^?axk>P.^^YTXh=<W3?TXvdv#_rhS%2G?{!W@}@bh_scq2
+m%^WgsRYE@M>wY$ZC^_dhum+z.=vCBpnY<O8>cJG.L|V7i}Ez0IT>|hrR&4s[rR_(O-zNQFW(b9T-Gi2z3G?V4j-C.tVrg3lOqUVc^TD-sPwzOQ%D<uUo:w&!7am)L!UL&E$Nrc)QwO4tlx]vJ(>1Ri4T{aICQgXtbOUO]P^pg=H?a:_rDnJ3)HBGh|VoyFWPSIzXQ6IA5Ha5o0[&vclh@70&iXur:lO1I1!aVs6]$|k$m<b4DtnKM0Lb#ncg%AXk[VgT<lhvC[j08?axk@P.^^YhujUYg#G4}@|X}VRhYRGcYR0PjT==.#84t_4c_su
+ZC8Fxj1V>gz]b&%h1|%CRAK5?IP}uID3UAM){5P@kg-0fCXxO%hNIdW:&[br7<6Vju!ahkd1+5W1z>%6y0Iid!-?{88Qjf$nqyECc{y+Nwgi4XE!ol1Xd)=ZGQNvW>%5>9M7<zmNn+z.r<As:04BdanwM7thixjfl%$32eAQPEJKUtrDxuURt5<Ufus_XR@2T!yb5kx8jVGckE%x|aOf%sacOtcaKJ.O>Gz]llL{H6AUVgs[S9@3BU>_2okP$W!hQ0PUT}39QoL]lkzUY@NkE$K8:7&cD3gHaKuSxe6i-ht7KYmgS?V.pT]LV}:t8NgK
+GS2.:DD^|swb_uGbiX!HmtEk8W<@Gly8O)kh+eoKDI6fAd[EHtoac1EE?bVv9}65^-CmY$ZK+O$eeSjYxPL)mY}?B@<9pCjI{YF0L?!%dz>zdpO0[YejHnjWV7msE(O8!y[6i-}$W.tS^Ro[emAzEY<:id|feCZmL%k>D3e!JEWrrt9i+XlyQ%n-SNG!S)$@?K^CPp(DHIr]0+dE4([ofXIEKYaVA{->PS7-^Hw3?R&^9hZ0a_>af1i=zT.ZU::qy<UWfc2uYg4ZMZpRvIp[Rhj=VV8P6r4kqB4ghE2N%K^cSd$rsoo(}ZYY|pqS:V?A
+A4MH?tGTyE]R><40&Jlsl}.T{L3JFz3F8.5_!CX!_a&!))QBLNrv$&NKT!yw?m{q]2vh:f[7}<!9<>PgiNh$t[?IBUuz#q:wi}@(dLW.b34VQ6j(}BHKN6.+7<^3Fl!e(EWtn0-!1G%JY]H80:WIlE!=#|eP]iF1!!!.e&2FiD+u#f|!!#oHkB|.NS$cS[!!D<9rx!+7U>w=p!(Q}bE|-G%!!!$K#%+xp#{i5Q!!!Mq6XQ$FFX)vv!!+AV8P!#m1WOnN!#F}wWt+vj:WIlE!=#|eP]iF1!!!.e&2FiD+u#f|!!#oHkB|.NS$cS[!!D<9
+rx!+7U>w=p!(Q}bE|-G%!!!$K#%+xp#{i5Q!!!Mq6XQ$FFX)vv!!+AV8P!#m1WOnN!#F}wWt+vj:WIlE!=#|eP]iF1!!!.e&2FiD+u#f|!!#oHkB|.NS$cS[!!D<9rx!+7U>w=p!(Q}bE|-G%!!!$K#%+xp#{i5Q!!!Mq6XQ$FFX)vv!!+AV8P!#m1WOnN!#F}wWt+vj:WIlE!=#|eP]iF1!!!.e&2FiD+u#f|!!#oHkB|.NS$cS[!!D<9rx!+7U>w=p!(Q}bE|-G%!!!$K#%+xp#{i5Q!!!Mq6XQ$FFX)vv!!+AV8P!#m1WOnN!#F}w
+Wt+vj:WIlE!=#|eP]iF1!!!.e&2FiD+u#f|!!#oHkB|.NS$cS[!!D<9rx!+7U>w=p!(Q}bE|-G%!!!$K#%+xp#{i5Q!!!Mq6XQ$FFX)vv!!+AV8P!#m1WOnN!#F}wWt+vj:WIlE!=#|eP]iF1!!!.e&2FiD+u#f|!!#oHkB|.NS$cS[!!D<9rx!+7U>w=p!(Q}bE|-G%!!!$K#%+xp#{i5Q!!!Mq6XQ$FFX)vv!!+AV8P!#m1WOnN!#F}wWt+vj:WIlE!=#|eP]iF1!!!.e&2FiD+u#f|!!#oHkB|.NS$cS[!!D<9rx!+7U>w=p!(Q}b
+E|-G%!!!$K#%+xp#{i5Q!!!Mq6XQ$FFX)vv!!+AV8P!#m1WOnN0?1:u>q>Z<#XCXJ!!!!!<z%5HPufxP
+ */
